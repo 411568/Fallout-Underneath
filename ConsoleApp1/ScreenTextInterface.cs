@@ -45,12 +45,16 @@ namespace FalloutUnderneath
 
         public void WriteText(string text)
         {
-            WriteAt(text, 0, lineNumber);
+            WriteAt(text, 7, lineNumber + 2);
         }
 
         public void ClearText()
         {
-            WriteAt("                                                                          ", 0, lineNumber);
+            WriteAt("    __________________________________________________________________________", 0, lineNumber);
+            WriteAt("    |                                                                        |", 0, lineNumber + 1);
+            WriteAt("    |                                                                        |", 0, lineNumber + 2);
+            WriteAt("    |                                                                        |", 0, lineNumber + 3);
+            WriteAt("    \\________________________________________________________________________/", 0, lineNumber + 3);
         }
     }
 }

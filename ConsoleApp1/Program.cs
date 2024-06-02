@@ -15,6 +15,7 @@ namespace FalloutUnderneath
 
             ScreenTextInterface textInterface = ScreenTextInterface.GetInstance();
             textInterface.Setup(25);
+            textInterface.ClearText();
             textInterface.WriteText("TEXT INTERFACE");
 
 
