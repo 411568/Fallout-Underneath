@@ -45,8 +45,12 @@ namespace FalloutUnderneath
 
         public void WriteText(string text)
         {
+            // ? Clear text every time we write something? 
+            ClearText();
+
             WriteAt(text, 7, lineNumber + 2);
         }
+
 
         public void ClearText()
         {
