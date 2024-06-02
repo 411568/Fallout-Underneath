@@ -6,7 +6,7 @@ namespace FalloutUnderneath
     {
         static int Main()
         {
-            Console.SetWindowSize(100, 30);
+            Console.SetWindowSize(82, 30);
 
             GameMap testMap = new GameMap(40, 10);
             testMap.CreateNewMap();
@@ -15,7 +15,7 @@ namespace FalloutUnderneath
 
             ScreenTextInterface textInterface = ScreenTextInterface.GetInstance();
             textInterface.Setup(25);
-            textInterface.WriteText("SADASDAASD");
+            textInterface.WriteText("TEXT INTERFACE");
 
 
             var name = Console.ReadLine(); 
