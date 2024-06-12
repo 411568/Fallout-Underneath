@@ -45,6 +45,8 @@ namespace FalloutUnderneath
 
         public void WriteText(string text)
         {
+            DebugLogger.Log("Writing to text interface");
+            
             // ? Clear text every time we write something? 
             ClearText();
 
@@ -54,6 +56,8 @@ namespace FalloutUnderneath
 
         public void ClearText()
         {
+            DebugLogger.Log("Clearing text interface");
+
             WriteAt("    __________________________________________________________________________", 0, lineNumber);
             WriteAt("    |                                                                        |", 0, lineNumber + 1);
             WriteAt("    |                                                                        |", 0, lineNumber + 2);

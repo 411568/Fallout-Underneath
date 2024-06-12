@@ -8,15 +8,23 @@ namespace FalloutUnderneath
         {
             Console.SetWindowSize(82, 30);
 
+            // Initialize the debug logger
+            DebugLogger.SetDebugFile("DebugLog.txt");
+
+            // ! TESTING
             GameMap testMap = new GameMap(40, 10);
             testMap.CreateNewMap();
             testMap.PrintMaze();
 
-
+            // ! TESTING
             ScreenTextInterface textInterface = ScreenTextInterface.GetInstance();
             textInterface.Setup(25);
-            textInterface.ClearText();
-            textInterface.WriteText("TEXT INTERFACE");
+            textInterface.WriteText("TEXT INTERFACE INIT");
+
+
+            // Start the game engine
+            GameEngine gameEngine = GameEngine.GetInstance();
+            gameEngine.StartGame();
 
 
             var name = Console.ReadLine(); 

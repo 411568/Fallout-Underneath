@@ -1,0 +1,4 @@
+6/13/2024 12:46:39 AM: FalloutUnderneath.GameMap.CreateNewMap  Log message: Creating new map
+6/13/2024 12:46:40 AM: FalloutUnderneath.ScreenTextInterface.WriteText  Log message: Writing to text interface
+6/13/2024 12:46:40 AM: FalloutUnderneath.ScreenTextInterface.ClearText  Log message: Clearing text interface
+6/13/2024 12:46:40 AM: FalloutUnderneath.GameEngine.StartGame  Log message: Starting game

@@ -27,6 +27,7 @@ namespace FalloutUnderneath
 
         public void StartGame()
         {
+            DebugLogger.Log("Starting game");
             // TODO
         }
 

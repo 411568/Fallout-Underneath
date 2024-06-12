@@ -30,6 +30,8 @@ namespace FalloutUnderneath
 
         public void CreateNewMap()
         {
+            DebugLogger.Log("Creating new map");
+
             // Fill map with walls
             for (int y = 0; y < wholeMap.GetLength(1); y++)
             {
