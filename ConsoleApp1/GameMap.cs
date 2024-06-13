@@ -28,6 +28,15 @@ namespace FalloutUnderneath
             wholeMap = new char[mapWidth*2+1, mapHeight*2+1];
         }
 
+        public char[,] GetNewMap()
+        {
+            DebugLogger.Log("Creating new map");
+
+            CreateNewMap();
+
+            return wholeMap;
+        }
+
         public void CreateNewMap()
         {
             DebugLogger.Log("Creating new map");

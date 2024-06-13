@@ -10,16 +10,8 @@ namespace FalloutUnderneath
 
             // Initialize the debug logger
             DebugLogger.SetDebugFile("DebugLog.txt");
-            // ! TESTING
-            GameMap testMap = new GameMap(40, 10);
-            testMap.CreateNewMap();
-            testMap.PrintMaze();
 
-            // ! TESTING
-            ScreenTextInterface textInterface = ScreenTextInterface.GetInstance();
-            textInterface.Setup(25);
-            textInterface.WriteText("TEXT INTERFACE INIT");
-
+            DebugLogger.Log("LET THE DEBUGGING BEGIN!");
 
             // Start the game engine
             GameEngine gameEngine = GameEngine.GetInstance();

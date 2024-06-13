@@ -14,11 +14,12 @@ namespace FalloutUnderneath
         // Game viewport and text interface
         private Viewport currentViewport = Viewport.GetInstance();
         private ScreenTextInterface textInterface = ScreenTextInterface.GetInstance();
+        private MainMenu mainMenu = MainMenu.GetInstance();
 
         private bool _gameOver = false;
 
         // TODO
-        //private Player player = Player.GetInstance(); 
+        private Player player = Player.GetInstance(); 
 
         public static GameEngine GetInstance()
         {
@@ -33,9 +34,21 @@ namespace FalloutUnderneath
         public void StartGame()
         {
             DebugLogger.Log("Starting game");
-            // TODO
-            // Intro screen + menu
+            
+            // Open main menu
+            mainMenu.ShowMainMenu();
 
+            // Draw current viewport
+            currentViewport.StartNewGame();
+            currentViewport.RedrawCurrentViewport();
+
+            // Set the text interface line
+            textInterface.Setup(22);
+
+            // Draw text interface 
+            textInterface.ClearText();
+
+            DebugLogger.Log("Starting main game loop");
             // Start the game loop
             GameLoop();
         }
@@ -52,7 +65,11 @@ namespace FalloutUnderneath
 
         private void Redraw()
         {
-            // TODO
+            player.DrawOnViewport(currentViewport);
+
+            // TODO:
+            // we don't want to redraw the whole viewport -> just call the appropriate methods in the player, enemies and item classes so that they change part of the viewport
+            //currentViewport.RedrawCurrentViewport();
         }
 
         private void HandleUserInput()
@@ -65,16 +82,16 @@ namespace FalloutUnderneath
             switch(key)
             {
                 case ConsoleKey.A:
-                    //player.Move(-1, 0);
+                    player.Move(-1, 0, currentViewport);
                     break;
                 case ConsoleKey.W:
-                    //player.Move(0, 1);
+                    player.Move(0, -1, currentViewport);
                     break;
                 case ConsoleKey.S:
-                    //player.Move(0, -1);
+                    player.Move(0, 1, currentViewport);
                     break;
                 case ConsoleKey.D:
-                    //player.Move(1, 0);
+                    player.Move(1, 0, currentViewport);
                     break;
                 case ConsoleKey.I:
                     //player.OpenInventory();

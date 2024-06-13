@@ -10,7 +10,7 @@ namespace FalloutUnderneath
 
         private static ScreenTextInterface? _instance;
 
-        private int lineNumber = 20;
+        private int lineNumber = 22;
 
         public static ScreenTextInterface GetInstance()
         {
@@ -39,7 +39,7 @@ namespace FalloutUnderneath
             catch (ArgumentOutOfRangeException e)
             {
                 Console.Clear();
-                Console.WriteLine(e.Message);
+                DebugLogger.LogError($"Argument out of range exception thrown: {e}");
             }
         }
 
