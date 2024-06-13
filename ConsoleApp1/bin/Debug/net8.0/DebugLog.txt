@@ -1,4 +1,27 @@
-6/13/2024 12:46:39 AM: FalloutUnderneath.GameMap.CreateNewMap  Log message: Creating new map
-6/13/2024 12:46:40 AM: FalloutUnderneath.ScreenTextInterface.WriteText  Log message: Writing to text interface
-6/13/2024 12:46:40 AM: FalloutUnderneath.ScreenTextInterface.ClearText  Log message: Clearing text interface
-6/13/2024 12:46:40 AM: FalloutUnderneath.GameEngine.StartGame  Log message: Starting game
+6/13/2024 7:52:19 PM: FalloutUnderneath.GameMap.CreateNewMap  Log message: Creating new map
+6/13/2024 7:52:19 PM: FalloutUnderneath.ScreenTextInterface.WriteText  Log message: Writing to text interface
+6/13/2024 7:52:19 PM: FalloutUnderneath.ScreenTextInterface.ClearText  Log message: Clearing text interface
+6/13/2024 7:52:19 PM: FalloutUnderneath.GameEngine.StartGame  Log message: Starting game
+6/13/2024 7:52:20 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/13/2024 7:52:20 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: J
+6/13/2024 7:52:20 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: K
+6/13/2024 7:52:20 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
+6/13/2024 7:52:20 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: A
+6/13/2024 7:52:20 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: B
+6/13/2024 7:52:20 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: N
+6/13/2024 7:52:20 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: F
+6/13/2024 7:52:20 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/13/2024 7:52:20 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: J
+6/13/2024 7:52:20 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: K
+6/13/2024 7:52:20 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: A
+6/13/2024 7:52:20 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
+6/13/2024 7:52:20 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: B
+6/13/2024 7:52:20 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: K
+6/13/2024 7:52:20 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: A
+6/13/2024 7:52:20 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
+6/13/2024 7:52:20 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: J
+6/13/2024 7:52:20 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/13/2024 7:52:20 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: B
+6/13/2024 7:52:20 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: A
+6/13/2024 7:52:21 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: Escape
+6/13/2024 7:52:21 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Exiting game...

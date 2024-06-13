@@ -10,7 +10,6 @@ namespace FalloutUnderneath
 
             // Initialize the debug logger
             DebugLogger.SetDebugFile("DebugLog.txt");
-
             // ! TESTING
             GameMap testMap = new GameMap(40, 10);
             testMap.CreateNewMap();
@@ -27,7 +26,6 @@ namespace FalloutUnderneath
             gameEngine.StartGame();
 
 
-            var name = Console.ReadLine(); 
             return 0;
         }
     }
