@@ -4,7 +4,7 @@ using System.Text;
 
 namespace FalloutUnderneath
 {
-    class ScreenTextInterface
+    public class ScreenTextInterface
     {
         private ScreenTextInterface() {}
 
@@ -53,6 +53,22 @@ namespace FalloutUnderneath
             WriteAt(text, 7, lineNumber + 2);
         }
 
+        public void WriteTextAtLine(string text, int line)
+        {
+            if(line >= 0 && line <= 5)
+            {
+                DebugLogger.Log($"Writing to text interface on line: {line}");
+
+                WriteAt("                                                                       ", 7, lineNumber + line + 1); // Clear the line we want to write on
+                Console.ForegroundColor = ConsoleColor.White;
+                WriteAt(text, 7, lineNumber + line + 1); // Write text on the line
+            }
+            else
+            {
+                DebugLogger.LogError("Text interface line input out of range");
+            }
+        }
+
 
         public void ClearText()
         {
@@ -62,7 +78,9 @@ namespace FalloutUnderneath
             WriteAt("    |                                                                        |", 0, lineNumber + 1);
             WriteAt("    |                                                                        |", 0, lineNumber + 2);
             WriteAt("    |                                                                        |", 0, lineNumber + 3);
-            WriteAt("    \\________________________________________________________________________/", 0, lineNumber + 3);
+            WriteAt("    |                                                                        |", 0, lineNumber + 4);
+            WriteAt("    |                                                                        |", 0, lineNumber + 5);
+            WriteAt("    \\________________________________________________________________________/", 0, lineNumber + 6);
         }
     }
 }

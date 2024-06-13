@@ -49,6 +49,7 @@ namespace FalloutUnderneath
             textInterface.ClearText();
 
             DebugLogger.Log("Starting main game loop");
+
             // Start the game loop
             GameLoop();
         }
@@ -66,10 +67,7 @@ namespace FalloutUnderneath
         private void Redraw()
         {
             player.DrawOnViewport(currentViewport);
-
-            // TODO:
-            // we don't want to redraw the whole viewport -> just call the appropriate methods in the player, enemies and item classes so that they change part of the viewport
-            //currentViewport.RedrawCurrentViewport();
+            player.WriteOnTextInterface(textInterface);
         }
 
         private void HandleUserInput()

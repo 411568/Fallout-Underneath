@@ -38,18 +38,22 @@ namespace FalloutUnderneath
             Console.SetCursorPosition(10, 15);
             Console.Write("3. Exit game");
 
-            string? input = Console.ReadLine();
+            ConsoleKeyInfo key = Console.ReadKey();
 
-            switch(input)
+            switch(key.KeyChar)
             {
-                case "1":
+                case '1':
                     break;
-                case "2":
+                case '2': 
                     ShowInstructions();
+                    ShowMainMenu();
                     break;
-                case "3":
+                case '3': 
                     DebugLogger.Log("Exiting game...");
                     Environment.Exit(0); // * Exit game
+                    break;
+                default:
+                    ShowMainMenu();
                     break;
             }
         }

@@ -63,7 +63,7 @@ namespace FalloutUnderneath
 
         public void ChangeCharacterInPosition(int x, int y, char inputCharacter, ConsoleColor inputColor)
         {
-            DebugLogger.Log("Drawing something on the viewport");
+            DebugLogger.Log("Drawing on the viewport");
 
             currentMap[x, y] = inputCharacter;
 

@@ -6,7 +6,7 @@ using System.Text;
 
 namespace FalloutUnderneath
 {
-    class Player : IDrawable
+    class Player : IDrawable, ITextInterface
     {
         private Player() {}
 
@@ -42,6 +42,14 @@ namespace FalloutUnderneath
             previousX = playerX;
             previousY = playerY;
         }
+
+        public void WriteOnTextInterface(ScreenTextInterface textInterface)
+        {
+            DebugLogger.Log("Writing player stats to text interface");
+
+            textInterface.WriteTextAtLine("Player stats: ", 0);
+        }
+
 
         public void Move(int xInput, int yInput, Viewport currentViewport)
         {
@@ -145,7 +153,7 @@ namespace FalloutUnderneath
                             // TODO
                             // Check our pickaxe stats
                             previousY = playerY;
-                            playerY++;
+                            playerY--;
 
                             digThroughWall = false;
                         }
