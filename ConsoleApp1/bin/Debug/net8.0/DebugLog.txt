@@ -1,508 +1,1070 @@
-6/14/2024 6:28:55 PM: FalloutUnderneath.Program.Main  Log message: LET THE DEBUGGING BEGIN!
-6/14/2024 6:28:55 PM: FalloutUnderneath.Player..ctor  Log message: Initializing player
-6/14/2024 6:28:55 PM: FalloutUnderneath.Inventory.AddItemToInventory  Log message: Adding item to inventory
-6/14/2024 6:28:55 PM: FalloutUnderneath.Inventory.AddItemToInventory  Log message: Added item: Pickaxe
-6/14/2024 6:28:55 PM: FalloutUnderneath.GameEngine.StartGame  Log message: Starting game
-6/14/2024 6:28:55 PM: FalloutUnderneath.MainMenu.ShowMainMenu  Log message: Showing main menu
-6/14/2024 6:28:56 PM: FalloutUnderneath.Viewport.StartNewGame  Log message: Creating viewport...
-6/14/2024 6:28:56 PM: FalloutUnderneath.GameMap.GetNewMap  Log message: Creating new map
-6/14/2024 6:28:56 PM: FalloutUnderneath.GameMap.CreateNewMap  Log message: Creating new map
-6/14/2024 6:28:56 PM: FalloutUnderneath.Viewport.RedrawCurrentViewport  Log message: Redrawing viewport
-6/14/2024 6:28:56 PM: FalloutUnderneath.ScreenTextInterface.ClearText  Log message: Clearing text interface
-6/14/2024 6:28:56 PM: FalloutUnderneath.GameEngine.StartGame  Log message: Starting main game loop
-6/14/2024 6:28:56 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:56 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:56 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:56 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:56 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:28:56 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
-6/14/2024 6:28:56 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
-6/14/2024 6:28:56 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:56 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:56 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:56 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:56 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:28:57 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
-6/14/2024 6:28:57 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
-6/14/2024 6:28:57 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:57 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:57 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:57 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:57 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:28:57 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
-6/14/2024 6:28:57 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
-6/14/2024 6:28:57 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:57 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:57 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:57 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:57 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:28:57 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
-6/14/2024 6:28:57 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
-6/14/2024 6:28:57 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:57 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:57 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:57 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:57 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:28:57 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
-6/14/2024 6:28:57 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
-6/14/2024 6:28:57 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:57 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:57 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:57 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:57 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:28:57 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
-6/14/2024 6:28:57 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
-6/14/2024 6:28:57 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:57 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:57 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:57 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:57 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:28:57 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
-6/14/2024 6:28:57 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
-6/14/2024 6:28:57 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:57 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:57 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:57 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:57 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:28:57 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
-6/14/2024 6:28:57 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
-6/14/2024 6:28:57 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:57 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:57 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:57 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:57 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:28:57 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
-6/14/2024 6:28:57 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
-6/14/2024 6:28:57 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:57 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:57 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:57 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:57 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:28:57 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: I
-6/14/2024 6:28:57 PM: FalloutUnderneath.Inventory.ShowInventory  Log message: showing inventory
-6/14/2024 6:28:57 PM: FalloutUnderneath.Pickaxe.GetStats  Log message: Getting pickaxe stats
-6/14/2024 6:28:57 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 1
-6/14/2024 6:28:57 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:57 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:57 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:57 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:57 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:28:57 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
-6/14/2024 6:28:57 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
-6/14/2024 6:28:57 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:57 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:57 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:57 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:57 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:28:58 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
-6/14/2024 6:28:58 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
-6/14/2024 6:28:58 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:58 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:58 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:58 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:58 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:28:58 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
-6/14/2024 6:28:58 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
-6/14/2024 6:28:58 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:58 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:58 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:58 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:58 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:28:58 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
-6/14/2024 6:28:58 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
-6/14/2024 6:28:58 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:58 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:58 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:58 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:58 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:28:58 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
-6/14/2024 6:28:58 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
-6/14/2024 6:28:58 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:58 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:58 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:58 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:58 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:28:58 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
-6/14/2024 6:28:58 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
-6/14/2024 6:28:58 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:58 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:58 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:58 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:58 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:28:58 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
-6/14/2024 6:28:58 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
-6/14/2024 6:28:58 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:58 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:58 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:58 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:58 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:28:58 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
-6/14/2024 6:28:58 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
-6/14/2024 6:28:58 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:58 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:58 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:58 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:58 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:28:58 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
-6/14/2024 6:28:58 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
-6/14/2024 6:28:58 PM: FalloutUnderneath.Player.CheckPickaxeState  Log message: Checking pickaxe state
-6/14/2024 6:28:58 PM: FalloutUnderneath.Inventory.GetItemFromInventory  Log message: checking item: Pickaxe
-6/14/2024 6:28:58 PM: FalloutUnderneath.Pickaxe.UseItem  Log message: Using pickaxe
-6/14/2024 6:28:58 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:58 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:58 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:58 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:58 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:28:58 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: I
-6/14/2024 6:28:58 PM: FalloutUnderneath.Inventory.ShowInventory  Log message: showing inventory
-6/14/2024 6:28:58 PM: FalloutUnderneath.Pickaxe.GetStats  Log message: Getting pickaxe stats
-6/14/2024 6:28:58 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 1
-6/14/2024 6:28:58 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:58 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:58 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:58 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:58 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:28:58 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
-6/14/2024 6:28:58 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
-6/14/2024 6:28:58 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:58 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:58 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:58 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:58 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:28:59 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.CheckPickaxeState  Log message: Checking pickaxe state
-6/14/2024 6:28:59 PM: FalloutUnderneath.Inventory.GetItemFromInventory  Log message: checking item: Pickaxe
-6/14/2024 6:28:59 PM: FalloutUnderneath.Pickaxe.UseItem  Log message: Using pickaxe
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:59 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:28:59 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:59 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:28:59 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.CheckPickaxeState  Log message: Checking pickaxe state
-6/14/2024 6:28:59 PM: FalloutUnderneath.Inventory.GetItemFromInventory  Log message: checking item: Pickaxe
-6/14/2024 6:28:59 PM: FalloutUnderneath.Pickaxe.UseItem  Log message: Using pickaxe
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:59 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:28:59 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:59 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:28:59 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.CheckPickaxeState  Log message: Checking pickaxe state
-6/14/2024 6:28:59 PM: FalloutUnderneath.Inventory.GetItemFromInventory  Log message: checking item: Pickaxe
-6/14/2024 6:28:59 PM: FalloutUnderneath.Pickaxe.UseItem  Log message: Using pickaxe
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:59 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:28:59 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:59 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:28:59 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.CheckPickaxeState  Log message: Checking pickaxe state
-6/14/2024 6:28:59 PM: FalloutUnderneath.Inventory.GetItemFromInventory  Log message: checking item: Pickaxe
-6/14/2024 6:28:59 PM: FalloutUnderneath.Pickaxe.UseItem  Log message: Using pickaxe
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:59 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:28:59 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:59 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:28:59 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.CheckPickaxeState  Log message: Checking pickaxe state
-6/14/2024 6:28:59 PM: FalloutUnderneath.Inventory.GetItemFromInventory  Log message: checking item: Pickaxe
-6/14/2024 6:28:59 PM: FalloutUnderneath.Pickaxe.UseItem  Log message: Using pickaxe
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:59 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:28:59 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:59 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:28:59 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.CheckPickaxeState  Log message: Checking pickaxe state
-6/14/2024 6:28:59 PM: FalloutUnderneath.Inventory.GetItemFromInventory  Log message: checking item: Pickaxe
-6/14/2024 6:28:59 PM: FalloutUnderneath.Pickaxe.UseItem  Log message: Using pickaxe
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:59 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:28:59 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:59 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:28:59 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.CheckPickaxeState  Log message: Checking pickaxe state
-6/14/2024 6:28:59 PM: FalloutUnderneath.Inventory.GetItemFromInventory  Log message: checking item: Pickaxe
-6/14/2024 6:28:59 PM: FalloutUnderneath.Pickaxe.UseItem  Log message: Using pickaxe
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:59 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:28:59 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:59 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:28:59 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:59 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:28:59 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: I
-6/14/2024 6:28:59 PM: FalloutUnderneath.Inventory.ShowInventory  Log message: showing inventory
-6/14/2024 6:28:59 PM: FalloutUnderneath.Pickaxe.GetStats  Log message: Getting pickaxe stats
-6/14/2024 6:28:59 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 1
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:28:59 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:28:59 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:29:00 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
-6/14/2024 6:29:00 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
-6/14/2024 6:29:00 PM: FalloutUnderneath.Player.CheckPickaxeState  Log message: Checking pickaxe state
-6/14/2024 6:29:00 PM: FalloutUnderneath.Inventory.GetItemFromInventory  Log message: checking item: Pickaxe
-6/14/2024 6:29:00 PM: FalloutUnderneath.Pickaxe.UseItem  Log message: Using pickaxe
-6/14/2024 6:29:00 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:29:00 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:00 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:00 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:29:00 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:29:00 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
-6/14/2024 6:29:00 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
-6/14/2024 6:29:00 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:29:00 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:00 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:00 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:29:00 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:29:01 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
-6/14/2024 6:29:01 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
-6/14/2024 6:29:01 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:29:01 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:01 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:01 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:29:01 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:29:01 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
-6/14/2024 6:29:01 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
-6/14/2024 6:29:01 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:29:01 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:01 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:01 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:29:01 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:29:01 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
-6/14/2024 6:29:01 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
-6/14/2024 6:29:01 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:29:01 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:01 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:01 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:29:01 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:29:01 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
-6/14/2024 6:29:01 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
-6/14/2024 6:29:01 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:29:01 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:01 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:01 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:29:01 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:29:01 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: I
-6/14/2024 6:29:01 PM: FalloutUnderneath.Inventory.ShowInventory  Log message: showing inventory
-6/14/2024 6:29:01 PM: FalloutUnderneath.Pickaxe.GetStats  Log message: Getting pickaxe stats
-6/14/2024 6:29:01 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 1
-6/14/2024 6:29:01 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:29:01 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:01 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:01 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:29:01 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:29:01 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
-6/14/2024 6:29:01 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
-6/14/2024 6:29:01 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:29:01 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:01 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:01 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:29:01 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:29:01 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
-6/14/2024 6:29:01 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
-6/14/2024 6:29:01 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:29:01 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:01 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:01 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:29:01 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:29:02 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
-6/14/2024 6:29:02 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
-6/14/2024 6:29:02 PM: FalloutUnderneath.Player.CheckPickaxeState  Log message: Checking pickaxe state
-6/14/2024 6:29:02 PM: FalloutUnderneath.Inventory.GetItemFromInventory  Log message: checking item: Pickaxe
-6/14/2024 6:29:02 PM: FalloutUnderneath.Pickaxe.UseItem  Log message: Using pickaxe
-6/14/2024 6:29:02 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:29:02 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:02 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:02 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:29:02 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:29:02 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
-6/14/2024 6:29:02 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
-6/14/2024 6:29:02 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:29:02 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:02 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:02 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:29:02 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:29:02 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
-6/14/2024 6:29:02 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
-6/14/2024 6:29:02 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:29:02 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:02 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:02 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:29:02 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:29:02 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: I
-6/14/2024 6:29:02 PM: FalloutUnderneath.Inventory.ShowInventory  Log message: showing inventory
-6/14/2024 6:29:02 PM: FalloutUnderneath.Pickaxe.GetStats  Log message: Getting pickaxe stats
-6/14/2024 6:29:02 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 1
-6/14/2024 6:29:02 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:29:02 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:02 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:02 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:29:02 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:29:02 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
-6/14/2024 6:29:02 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
-6/14/2024 6:29:02 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:29:02 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:02 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:02 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:29:02 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:29:03 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
-6/14/2024 6:29:03 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
-6/14/2024 6:29:03 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:29:03 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:03 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:03 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:29:03 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:29:03 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
-6/14/2024 6:29:03 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
-6/14/2024 6:29:03 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:29:03 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:03 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:03 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:29:03 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:29:03 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
-6/14/2024 6:29:03 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
-6/14/2024 6:29:03 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:29:03 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:03 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:03 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:29:03 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:29:03 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: I
-6/14/2024 6:29:03 PM: FalloutUnderneath.Inventory.ShowInventory  Log message: showing inventory
-6/14/2024 6:29:03 PM: FalloutUnderneath.Pickaxe.GetStats  Log message: Getting pickaxe stats
-6/14/2024 6:29:03 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 1
-6/14/2024 6:29:03 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:29:03 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:03 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:03 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:29:03 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:29:03 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
-6/14/2024 6:29:03 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
-6/14/2024 6:29:03 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:29:03 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:03 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:03 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:29:03 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:29:03 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
-6/14/2024 6:29:03 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
-6/14/2024 6:29:03 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:29:03 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:03 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:03 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:29:03 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:29:04 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
-6/14/2024 6:29:04 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
-6/14/2024 6:29:04 PM: FalloutUnderneath.Player.CheckPickaxeState  Log message: Checking pickaxe state
-6/14/2024 6:29:04 PM: FalloutUnderneath.Inventory.GetItemFromInventory  Log message: checking item: Pickaxe
-6/14/2024 6:29:04 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:29:04 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:04 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:04 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:29:04 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:29:04 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
-6/14/2024 6:29:04 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
-6/14/2024 6:29:04 PM: FalloutUnderneath.Player.CheckPickaxeState  Log message: Checking pickaxe state
-6/14/2024 6:29:04 PM: FalloutUnderneath.Inventory.GetItemFromInventory  Log message: checking item: Pickaxe
-6/14/2024 6:29:04 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:29:04 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:04 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:04 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:29:04 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:29:04 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
-6/14/2024 6:29:04 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
-6/14/2024 6:29:04 PM: FalloutUnderneath.Player.CheckPickaxeState  Log message: Checking pickaxe state
-6/14/2024 6:29:04 PM: FalloutUnderneath.Inventory.GetItemFromInventory  Log message: checking item: Pickaxe
-6/14/2024 6:29:04 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:29:04 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:04 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:04 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:29:04 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:29:04 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: W
-6/14/2024 6:29:04 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: -1
-6/14/2024 6:29:04 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:29:04 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:04 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:04 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:29:04 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:29:04 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: W
-6/14/2024 6:29:04 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: -1
-6/14/2024 6:29:04 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:29:04 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:04 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:04 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:29:04 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:29:04 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: W
-6/14/2024 6:29:04 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: -1
-6/14/2024 6:29:04 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
-6/14/2024 6:29:04 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:04 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
-6/14/2024 6:29:04 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
-6/14/2024 6:29:04 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
-6/14/2024 6:29:05 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: Escape
-6/14/2024 6:29:05 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Exiting game...
+6/14/2024 6:34:28 PM: FalloutUnderneath.Program.Main  Log message: LET THE DEBUGGING BEGIN!
+6/14/2024 6:34:28 PM: FalloutUnderneath.Player..ctor  Log message: Initializing player
+6/14/2024 6:34:28 PM: FalloutUnderneath.Inventory.AddItemToInventory  Log message: Adding item to inventory
+6/14/2024 6:34:28 PM: FalloutUnderneath.Inventory.AddItemToInventory  Log message: Added item: Pickaxe
+6/14/2024 6:34:28 PM: FalloutUnderneath.GameEngine.StartGame  Log message: Starting game
+6/14/2024 6:34:28 PM: FalloutUnderneath.MainMenu.ShowMainMenu  Log message: Showing main menu
+6/14/2024 6:34:29 PM: FalloutUnderneath.Viewport.StartNewGame  Log message: Creating viewport...
+6/14/2024 6:34:29 PM: FalloutUnderneath.GameMap.GetNewMap  Log message: Creating new map
+6/14/2024 6:34:29 PM: FalloutUnderneath.GameMap.CreateNewMap  Log message: Creating new map
+6/14/2024 6:34:29 PM: FalloutUnderneath.Viewport.RedrawCurrentViewport  Log message: Redrawing viewport
+6/14/2024 6:34:29 PM: FalloutUnderneath.ScreenTextInterface.ClearText  Log message: Clearing text interface
+6/14/2024 6:34:29 PM: FalloutUnderneath.GameEngine.StartGame  Log message: Starting main game loop
+6/14/2024 6:34:29 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:29 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:29 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:29 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:29 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:30 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:30 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:30 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:30 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:30 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:30 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:30 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:30 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:30 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:30 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:30 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:30 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:30 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:30 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:30 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:31 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:31 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:31 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:31 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:31 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:31 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:31 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.CheckPickaxeState  Log message: Checking pickaxe state
+6/14/2024 6:34:31 PM: FalloutUnderneath.Inventory.GetItemFromInventory  Log message: checking item: Pickaxe
+6/14/2024 6:34:31 PM: FalloutUnderneath.Pickaxe.UseItem  Log message: Using pickaxe
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:31 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:31 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:31 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:31 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:31 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:31 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:31 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:31 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:31 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.CheckPickaxeState  Log message: Checking pickaxe state
+6/14/2024 6:34:31 PM: FalloutUnderneath.Inventory.GetItemFromInventory  Log message: checking item: Pickaxe
+6/14/2024 6:34:31 PM: FalloutUnderneath.Pickaxe.UseItem  Log message: Using pickaxe
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:31 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:31 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:31 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:31 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:31 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.CheckPickaxeState  Log message: Checking pickaxe state
+6/14/2024 6:34:31 PM: FalloutUnderneath.Inventory.GetItemFromInventory  Log message: checking item: Pickaxe
+6/14/2024 6:34:31 PM: FalloutUnderneath.Pickaxe.UseItem  Log message: Using pickaxe
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:31 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:31 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:31 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:31 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:31 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:31 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:31 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.CheckPickaxeState  Log message: Checking pickaxe state
+6/14/2024 6:34:31 PM: FalloutUnderneath.Inventory.GetItemFromInventory  Log message: checking item: Pickaxe
+6/14/2024 6:34:31 PM: FalloutUnderneath.Pickaxe.UseItem  Log message: Using pickaxe
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:31 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:31 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:31 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:32 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:32 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:32 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:32 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:32 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:32 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:32 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:32 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:32 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:32 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:32 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:32 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:32 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:32 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:32 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:32 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
+6/14/2024 6:34:32 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
+6/14/2024 6:34:32 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:32 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:32 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:32 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:32 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:32 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
+6/14/2024 6:34:32 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
+6/14/2024 6:34:32 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:32 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:32 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:32 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:32 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:32 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
+6/14/2024 6:34:32 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
+6/14/2024 6:34:32 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:32 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:32 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:32 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:32 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:32 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
+6/14/2024 6:34:32 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
+6/14/2024 6:34:32 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:32 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:32 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:32 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:32 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:32 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
+6/14/2024 6:34:32 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
+6/14/2024 6:34:32 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:32 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:32 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:32 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:32 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:32 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
+6/14/2024 6:34:32 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
+6/14/2024 6:34:32 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:32 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:32 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:32 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:32 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:32 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
+6/14/2024 6:34:32 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
+6/14/2024 6:34:32 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:32 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:32 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:32 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:32 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:32 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
+6/14/2024 6:34:32 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
+6/14/2024 6:34:32 PM: FalloutUnderneath.Player.CheckPickaxeState  Log message: Checking pickaxe state
+6/14/2024 6:34:32 PM: FalloutUnderneath.Inventory.GetItemFromInventory  Log message: checking item: Pickaxe
+6/14/2024 6:34:32 PM: FalloutUnderneath.Pickaxe.UseItem  Log message: Using pickaxe
+6/14/2024 6:34:32 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:32 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:32 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:32 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:32 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:32 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
+6/14/2024 6:34:32 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
+6/14/2024 6:34:32 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:32 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:32 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:32 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:32 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:32 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
+6/14/2024 6:34:32 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
+6/14/2024 6:34:32 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:32 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:32 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:32 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:32 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:33 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: I
+6/14/2024 6:34:33 PM: FalloutUnderneath.Inventory.ShowInventory  Log message: showing inventory
+6/14/2024 6:34:33 PM: FalloutUnderneath.Pickaxe.GetStats  Log message: Getting pickaxe stats
+6/14/2024 6:34:33 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 1
+6/14/2024 6:34:33 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:33 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:33 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:33 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:33 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:35 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:35 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:35 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:35 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:35 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:35 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:35 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:35 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:35 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:35 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:35 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:35 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:35 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:35 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:35 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
+6/14/2024 6:34:35 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
+6/14/2024 6:34:35 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:35 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:35 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:35 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:35 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:35 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
+6/14/2024 6:34:35 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
+6/14/2024 6:34:35 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:35 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:35 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:35 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:35 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:36 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
+6/14/2024 6:34:36 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
+6/14/2024 6:34:36 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:36 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:36 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:36 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:36 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:36 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
+6/14/2024 6:34:36 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
+6/14/2024 6:34:36 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:36 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:36 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:36 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:36 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:36 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:36 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:36 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:36 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:36 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:36 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:36 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:36 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:36 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:36 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:36 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:36 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:36 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:36 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:37 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:37 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:37 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:37 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:37 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:37 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:37 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:37 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: I
+6/14/2024 6:34:37 PM: FalloutUnderneath.Inventory.ShowInventory  Log message: showing inventory
+6/14/2024 6:34:37 PM: FalloutUnderneath.Pickaxe.GetStats  Log message: Getting pickaxe stats
+6/14/2024 6:34:37 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 1
+6/14/2024 6:34:37 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:37 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:37 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:37 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:37 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:38 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
+6/14/2024 6:34:38 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
+6/14/2024 6:34:38 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:38 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:38 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:38 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:38 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:38 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
+6/14/2024 6:34:38 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
+6/14/2024 6:34:38 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:38 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:38 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:38 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:38 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:39 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:39 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:39 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:39 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:39 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:39 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:39 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:39 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:39 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:39 PM: FalloutUnderneath.Player.CheckPickaxeState  Log message: Checking pickaxe state
+6/14/2024 6:34:39 PM: FalloutUnderneath.Inventory.GetItemFromInventory  Log message: checking item: Pickaxe
+6/14/2024 6:34:39 PM: FalloutUnderneath.Pickaxe.UseItem  Log message: Using pickaxe
+6/14/2024 6:34:39 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:39 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:39 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:39 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:39 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:39 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: I
+6/14/2024 6:34:39 PM: FalloutUnderneath.Inventory.ShowInventory  Log message: showing inventory
+6/14/2024 6:34:39 PM: FalloutUnderneath.Pickaxe.GetStats  Log message: Getting pickaxe stats
+6/14/2024 6:34:39 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 1
+6/14/2024 6:34:39 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:39 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:39 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:39 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:39 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:40 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:40 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:40 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:40 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:40 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:40 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:40 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:40 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:40 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:40 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:40 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:40 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:40 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:40 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:40 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:40 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:40 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:40 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:40 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:40 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:40 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:41 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:41 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:41 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:41 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:41 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:41 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:41 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:41 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:41 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:41 PM: FalloutUnderneath.Player.CheckPickaxeState  Log message: Checking pickaxe state
+6/14/2024 6:34:41 PM: FalloutUnderneath.Inventory.GetItemFromInventory  Log message: checking item: Pickaxe
+6/14/2024 6:34:41 PM: FalloutUnderneath.Pickaxe.UseItem  Log message: Using pickaxe
+6/14/2024 6:34:41 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:41 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:41 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:41 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:41 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:41 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:41 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:41 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:41 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:41 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:41 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:41 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:41 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:41 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:41 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:41 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:41 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:41 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:41 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:42 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: W
+6/14/2024 6:34:42 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: -1
+6/14/2024 6:34:42 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:42 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:42 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:42 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:42 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:42 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: W
+6/14/2024 6:34:42 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: -1
+6/14/2024 6:34:42 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:42 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:42 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:42 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:42 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:42 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: W
+6/14/2024 6:34:42 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: -1
+6/14/2024 6:34:42 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:42 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:42 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:42 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:42 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:42 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:42 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:42 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:42 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:42 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:42 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:42 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:42 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:42 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:42 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:42 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:42 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:42 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:42 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:43 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:43 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:43 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:43 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:43 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:43 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:43 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:43 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:43 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:43 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:43 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:43 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:43 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:43 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:43 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: W
+6/14/2024 6:34:43 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: -1
+6/14/2024 6:34:43 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:43 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:43 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:43 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:43 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:43 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: W
+6/14/2024 6:34:43 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: -1
+6/14/2024 6:34:43 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:43 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:43 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:43 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:43 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:44 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: W
+6/14/2024 6:34:44 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: -1
+6/14/2024 6:34:44 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:44 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:44 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:44 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:44 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:44 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: W
+6/14/2024 6:34:44 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: -1
+6/14/2024 6:34:44 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:44 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:44 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:44 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:44 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:44 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: W
+6/14/2024 6:34:44 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: -1
+6/14/2024 6:34:44 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:44 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:44 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:44 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:44 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:44 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: W
+6/14/2024 6:34:44 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: -1
+6/14/2024 6:34:44 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:44 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:44 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:44 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:44 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:44 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:44 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:44 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:44 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:44 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:44 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:44 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:45 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:45 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:45 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:45 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:45 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:45 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:45 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:45 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: W
+6/14/2024 6:34:45 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: -1
+6/14/2024 6:34:45 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:45 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:45 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:45 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:45 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:45 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: W
+6/14/2024 6:34:45 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: -1
+6/14/2024 6:34:45 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:45 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:45 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:45 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:45 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:45 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: W
+6/14/2024 6:34:45 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: -1
+6/14/2024 6:34:45 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:45 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:45 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:45 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:45 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:45 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:45 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:45 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:45 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:45 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:45 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:45 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:46 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:46 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:46 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:46 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:46 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:46 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:46 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:46 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:46 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:46 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:46 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:46 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:46 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:46 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:46 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:46 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:46 PM: FalloutUnderneath.Player.CheckPickaxeState  Log message: Checking pickaxe state
+6/14/2024 6:34:46 PM: FalloutUnderneath.Inventory.GetItemFromInventory  Log message: checking item: Pickaxe
+6/14/2024 6:34:46 PM: FalloutUnderneath.Pickaxe.UseItem  Log message: Using pickaxe
+6/14/2024 6:34:46 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:46 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:46 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:46 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:46 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:46 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:46 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:46 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:46 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:46 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:46 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:46 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:46 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:46 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:46 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:46 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:46 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:46 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:46 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:47 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:47 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:47 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:47 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:47 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:47 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:47 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:47 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:47 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:47 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:47 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:47 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:47 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:47 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:47 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:47 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:47 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:47 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:47 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:47 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:47 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:47 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:47 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:47 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:47 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:47 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:47 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:47 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:47 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:47 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:47 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:47 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:47 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:47 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:47 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:47 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:47 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:47 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:47 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:47 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:47 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:47 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:48 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:48 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:48 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:48 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:48 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:48 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:48 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:48 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: I
+6/14/2024 6:34:48 PM: FalloutUnderneath.Inventory.ShowInventory  Log message: showing inventory
+6/14/2024 6:34:48 PM: FalloutUnderneath.Pickaxe.GetStats  Log message: Getting pickaxe stats
+6/14/2024 6:34:48 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 1
+6/14/2024 6:34:48 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:48 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:48 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:48 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:48 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:48 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
+6/14/2024 6:34:48 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
+6/14/2024 6:34:48 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:48 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:48 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:48 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:48 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:48 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
+6/14/2024 6:34:48 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
+6/14/2024 6:34:48 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:48 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:48 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:48 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:48 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:49 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: A
+6/14/2024 6:34:49 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: -1, Y: 0
+6/14/2024 6:34:49 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:49 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:49 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:49 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:49 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:49 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: A
+6/14/2024 6:34:49 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: -1, Y: 0
+6/14/2024 6:34:49 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:49 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:49 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:49 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:49 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:49 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: A
+6/14/2024 6:34:49 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: -1, Y: 0
+6/14/2024 6:34:49 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:49 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:49 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:49 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:49 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:49 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: A
+6/14/2024 6:34:49 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: -1, Y: 0
+6/14/2024 6:34:49 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:49 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:49 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:49 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:49 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:50 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: A
+6/14/2024 6:34:50 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: -1, Y: 0
+6/14/2024 6:34:50 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:50 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:50 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:50 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:50 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:50 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: A
+6/14/2024 6:34:50 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: -1, Y: 0
+6/14/2024 6:34:50 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:50 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:50 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:50 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:50 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:50 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
+6/14/2024 6:34:50 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
+6/14/2024 6:34:50 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:50 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:50 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:50 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:50 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:50 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
+6/14/2024 6:34:50 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
+6/14/2024 6:34:50 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:50 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:50 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:50 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:50 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:50 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
+6/14/2024 6:34:50 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
+6/14/2024 6:34:50 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:50 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:50 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:50 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:50 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:50 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
+6/14/2024 6:34:50 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
+6/14/2024 6:34:50 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:50 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:50 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:50 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:50 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:51 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
+6/14/2024 6:34:51 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
+6/14/2024 6:34:51 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:51 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:51 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:51 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:51 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:51 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
+6/14/2024 6:34:51 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
+6/14/2024 6:34:51 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:51 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:51 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:51 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:51 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:51 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:51 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:51 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:51 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:51 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:51 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:51 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:51 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:51 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:51 PM: FalloutUnderneath.Player.CheckPickaxeState  Log message: Checking pickaxe state
+6/14/2024 6:34:51 PM: FalloutUnderneath.Inventory.GetItemFromInventory  Log message: checking item: Pickaxe
+6/14/2024 6:34:51 PM: FalloutUnderneath.Pickaxe.UseItem  Log message: Using pickaxe
+6/14/2024 6:34:51 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:51 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:51 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:51 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:51 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:52 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:52 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:52 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:52 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:52 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:52 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:52 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:52 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: I
+6/14/2024 6:34:52 PM: FalloutUnderneath.Inventory.ShowInventory  Log message: showing inventory
+6/14/2024 6:34:52 PM: FalloutUnderneath.Pickaxe.GetStats  Log message: Getting pickaxe stats
+6/14/2024 6:34:52 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 1
+6/14/2024 6:34:52 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:52 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:52 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:52 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:52 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:53 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: W
+6/14/2024 6:34:53 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: -1
+6/14/2024 6:34:53 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:53 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:53 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:53 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:53 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:53 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: W
+6/14/2024 6:34:53 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: -1
+6/14/2024 6:34:53 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:53 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:53 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:53 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:53 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:53 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:53 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:53 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:53 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:53 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:53 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:53 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:53 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:53 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:53 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:53 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:53 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:53 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:53 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:53 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: W
+6/14/2024 6:34:53 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: -1
+6/14/2024 6:34:53 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:53 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:53 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:53 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:53 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:54 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: W
+6/14/2024 6:34:54 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: -1
+6/14/2024 6:34:54 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:54 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:54 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:54 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:54 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:54 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:54 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:54 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:54 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:54 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:54 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:54 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:54 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:54 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:54 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:54 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:54 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:54 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:54 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:54 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:54 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:54 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:54 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:54 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:54 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:54 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:54 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:54 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:54 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:54 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:54 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:54 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:54 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:54 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:54 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:54 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:54 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:54 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:54 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:54 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:55 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:55 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:55 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:55 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:55 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:55 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:55 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:55 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:55 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:55 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:55 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:55 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:55 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:55 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:55 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:55 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:55 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:55 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:55 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:55 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:55 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:55 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:55 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:55 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:55 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:55 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:55 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:55 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:55 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:55 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:55 PM: FalloutUnderneath.Player.CheckPickaxeState  Log message: Checking pickaxe state
+6/14/2024 6:34:55 PM: FalloutUnderneath.Inventory.GetItemFromInventory  Log message: checking item: Pickaxe
+6/14/2024 6:34:55 PM: FalloutUnderneath.Pickaxe.UseItem  Log message: Using pickaxe
+6/14/2024 6:34:55 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:55 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:55 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:55 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:55 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:55 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: D
+6/14/2024 6:34:55 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 1, Y: 0
+6/14/2024 6:34:55 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:55 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:55 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:55 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:55 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:56 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: I
+6/14/2024 6:34:56 PM: FalloutUnderneath.Inventory.ShowInventory  Log message: showing inventory
+6/14/2024 6:34:56 PM: FalloutUnderneath.Pickaxe.GetStats  Log message: Getting pickaxe stats
+6/14/2024 6:34:56 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 1
+6/14/2024 6:34:56 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:56 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:56 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:56 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:56 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:56 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
+6/14/2024 6:34:56 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
+6/14/2024 6:34:56 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:56 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:56 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:56 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:56 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:56 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
+6/14/2024 6:34:56 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
+6/14/2024 6:34:56 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:56 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:56 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:56 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:56 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:56 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: S
+6/14/2024 6:34:56 PM: FalloutUnderneath.Player.Move  Log message: Moving player in direction X: 0, Y: 1
+6/14/2024 6:34:56 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:56 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:56 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:56 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:56 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:56 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: I
+6/14/2024 6:34:56 PM: FalloutUnderneath.Inventory.ShowInventory  Log message: showing inventory
+6/14/2024 6:34:56 PM: FalloutUnderneath.Pickaxe.GetStats  Log message: Getting pickaxe stats
+6/14/2024 6:34:56 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 1
+6/14/2024 6:34:56 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:56 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:56 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:56 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:56 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:56 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: I
+6/14/2024 6:34:56 PM: FalloutUnderneath.Inventory.ShowInventory  Log message: showing inventory
+6/14/2024 6:34:56 PM: FalloutUnderneath.Pickaxe.GetStats  Log message: Getting pickaxe stats
+6/14/2024 6:34:56 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 1
+6/14/2024 6:34:56 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:56 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:56 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:56 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:56 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:57 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: I
+6/14/2024 6:34:57 PM: FalloutUnderneath.Inventory.ShowInventory  Log message: showing inventory
+6/14/2024 6:34:57 PM: FalloutUnderneath.Pickaxe.GetStats  Log message: Getting pickaxe stats
+6/14/2024 6:34:57 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 1
+6/14/2024 6:34:57 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:57 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:57 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:57 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:57 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:57 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: I
+6/14/2024 6:34:57 PM: FalloutUnderneath.Inventory.ShowInventory  Log message: showing inventory
+6/14/2024 6:34:57 PM: FalloutUnderneath.Pickaxe.GetStats  Log message: Getting pickaxe stats
+6/14/2024 6:34:57 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 1
+6/14/2024 6:34:57 PM: FalloutUnderneath.Player.DrawOnViewport  Log message: Drawing player on viewport
+6/14/2024 6:34:57 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:57 PM: FalloutUnderneath.Viewport.ChangeCharacterInPosition  Log message: Drawing on the viewport
+6/14/2024 6:34:57 PM: FalloutUnderneath.Player.WriteOnTextInterface  Log message: Writing player stats to text interface
+6/14/2024 6:34:57 PM: FalloutUnderneath.ScreenTextInterface.WriteTextAtLine  Log message: Writing to text interface on line: 0
+6/14/2024 6:34:57 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Pressed key: Escape
+6/14/2024 6:34:57 PM: FalloutUnderneath.GameEngine.HandleUserInput  Log message: Exiting game...

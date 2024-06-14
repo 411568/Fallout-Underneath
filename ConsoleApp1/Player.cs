@@ -20,6 +20,8 @@ namespace FalloutUnderneath
 
         private int playerLevel;
 
+        private int playerHP;
+
         private Inventory inventory;
 
         private Player()
@@ -34,6 +36,7 @@ namespace FalloutUnderneath
             previousY = 1;
             playerSpeed = 1;
             digThroughWall = false;
+            playerHP = 100;
 
             inventory.AddItemToInventory(new Pickaxe());
         }
@@ -44,7 +47,6 @@ namespace FalloutUnderneath
             if(_instance == null)
             {
                 _instance = new Player();
-               // _instance.PlayerInit();
             }
 
             return _instance;
@@ -66,7 +68,7 @@ namespace FalloutUnderneath
         {
             DebugLogger.Log("Writing player stats to text interface");
 
-            textInterface.WriteTextAtLine("Player stats: ", 0);
+            textInterface.WriteTextAtLine("Player stats: level " + playerLevel.ToString() + ", hp " + playerHP.ToString(), 0);
         }
 
         public void OpenInventory(ScreenTextInterface textInterface)
@@ -98,7 +100,6 @@ namespace FalloutUnderneath
                 return false;
             }
         }
-
 
 
         public void Move(int xInput, int yInput, Viewport currentViewport)
