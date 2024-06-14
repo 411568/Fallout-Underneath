@@ -92,7 +92,7 @@ namespace FalloutUnderneath
                     player.Move(1, 0, currentViewport);
                     break;
                 case ConsoleKey.I:
-                    //player.OpenInventory();
+                    player.OpenInventory(textInterface);
                     break;
                 case ConsoleKey.Escape: // * Exit game
                     DebugLogger.Log("Exiting game...");

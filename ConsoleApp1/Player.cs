@@ -8,17 +8,35 @@ namespace FalloutUnderneath
 {
     class Player : IDrawable, ITextInterface
     {
-        private Player() {}
-
         private char playerCharacter = '@';
         private ConsoleColor playerColor = ConsoleColor.Green;
-        private int playerX = 1;
-        private int playerY = 1;
-        private int previousX = 1;
-        private int previousY = 1;
+        private int playerX;
+        private int playerY;
+        private int previousX;
+        private int previousY;
 
-        private int playerSpeed = 1;
-        private bool digThroughWall = false;
+        private int playerSpeed;
+        private bool digThroughWall;
+
+        private int playerLevel;
+
+        private Inventory inventory;
+
+        private Player()
+        {
+            DebugLogger.Log("Initializing player");
+
+            playerLevel = 1;
+            inventory = new Inventory(playerLevel);
+            playerX = 1;
+            playerY = 1;
+            previousX = 1;
+            previousY = 1;
+            playerSpeed = 1;
+            digThroughWall = false;
+
+            inventory.AddItemToInventory(new Pickaxe());
+        }
         
         private static Player? _instance;
         public static Player GetInstance()
@@ -26,6 +44,7 @@ namespace FalloutUnderneath
             if(_instance == null)
             {
                 _instance = new Player();
+               // _instance.PlayerInit();
             }
 
             return _instance;
@@ -50,6 +69,37 @@ namespace FalloutUnderneath
             textInterface.WriteTextAtLine("Player stats: ", 0);
         }
 
+        public void OpenInventory(ScreenTextInterface textInterface)
+        {
+            inventory.ShowInventory(textInterface);
+        }
+
+
+        private bool CheckPickaxeState()
+        {
+            DebugLogger.Log("Checking pickaxe state");
+
+            Pickaxe? myPickaxe = (Pickaxe?)inventory.GetItemFromInventory("Pickaxe");
+
+            if(myPickaxe != null)
+            {
+                if(myPickaxe.GetWearLevel() > 0)
+                {
+                    myPickaxe.UseItem();
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+
 
         public void Move(int xInput, int yInput, Viewport currentViewport)
         {
@@ -68,12 +118,14 @@ namespace FalloutUnderneath
                         // Double check if the player wants to try and go through wall
                         if(digThroughWall == true)
                         {
-                            // TODO
                             // Check our pickaxe stats
-                            previousX = playerX;
-                            playerX++;
+                            if(CheckPickaxeState())
+                            {
+                                previousX = playerX;
+                                playerX++;
 
-                            digThroughWall = false;
+                                digThroughWall = false;
+                            }
                         }
                         else
                         {
@@ -95,12 +147,14 @@ namespace FalloutUnderneath
                         // Double check if the player wants to try and go through wall
                         if(digThroughWall == true)
                         {
-                            // TODO
                             // Check our pickaxe stats
-                            previousX = playerX;
-                            playerX--;
+                            if(CheckPickaxeState())
+                            {
+                                previousX = playerX;
+                                playerX--;
 
-                            digThroughWall = false;
+                                digThroughWall = false;
+                            }
                         }
                         else
                         {
@@ -123,12 +177,14 @@ namespace FalloutUnderneath
                         // Double check if the player wants to try and go through wall
                         if(digThroughWall == true)
                         {
-                            // TODO
                             // Check our pickaxe stats
-                            previousY = playerY;
-                            playerY++;
+                            if(CheckPickaxeState())
+                            {
+                                previousY = playerY;
+                                playerY++;
 
-                            digThroughWall = false;
+                                digThroughWall = false;
+                            }
                         }
                         else
                         {
@@ -150,12 +206,14 @@ namespace FalloutUnderneath
                         // Double check if the player wants to try and go through wall
                         if(digThroughWall == true)
                         {
-                            // TODO
                             // Check our pickaxe stats
-                            previousY = playerY;
-                            playerY--;
+                            if(CheckPickaxeState())
+                            {
+                                previousY = playerY;
+                                playerY--;
 
-                            digThroughWall = false;
+                                digThroughWall = false;
+                            }
                         }
                         else
                         {
