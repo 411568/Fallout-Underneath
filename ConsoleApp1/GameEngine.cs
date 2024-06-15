@@ -17,6 +17,7 @@ namespace FalloutUnderneath
         private MainMenu mainMenu = MainMenu.GetInstance();
         private ExitDoor exitDoor = new ExitDoor();
         private List<SpecialItems> specialItemsList = new List<SpecialItems>();
+        private List<Item> itemList = new List<Item>();
         private WallHackItem wallHackItem = new WallHackItem();
 
         private bool _gameOver = false;
@@ -115,7 +116,7 @@ namespace FalloutUnderneath
 
         private void UpdateObjectState()
         {
-            // TODO
+            // Checking interactions with special items
             foreach(SpecialItems specialItem in specialItemsList)
             {
                 DebugLogger.Log($"Item: {specialItem.itemName}");
@@ -130,6 +131,23 @@ namespace FalloutUnderneath
                     }
                 }
             }
+
+            // Checking interactions with normal items (picking them up and adding to inventory) 
+            (int, int) playerPosition = player.GetPlayerPosition();
+
+            foreach(Item item in itemList)
+            {
+                DebugLogger.Log($"Checking item: {item.GetItemName}");
+
+                (int, int) itemPosition = item.GetItemPosition();
+
+                if(itemPosition == playerPosition)
+                {
+                    player.AddItemToInventory(item);
+
+                    itemList.Remove(item);
+                }
+            }
         }    
 
         public void NextGameLevel()
@@ -140,6 +158,7 @@ namespace FalloutUnderneath
             // Draw new level map
             currentViewport.RedrawCurrentViewport();
 
+            // * Spawning special items
             specialItemsList.Clear();
             specialItemsList.Add(exitDoor);
 
@@ -150,8 +169,22 @@ namespace FalloutUnderneath
                 wallHackItem.DrawOnViewport(currentViewport);
             }
 
-            // Draw the special itemson viewport
+            // Draw the special items on viewport
             exitDoor.DrawOnViewport(currentViewport);
+
+            // * Spawning normal items for the user to pick up
+            itemList.Clear();
+            int itemCount = random.Next(2);
+            ItemFactory itemFactory = new ItemFactory();
+            for(int i = 0; i < itemCount; i++)
+            {
+                itemList.Add(itemFactory.CreateItem());
+            }
+
+            foreach(Item item in itemList)
+            {
+                item.DrawOnViewport(currentViewport);
+            }
 
             // Change player position
             player.GoToStartPosition();

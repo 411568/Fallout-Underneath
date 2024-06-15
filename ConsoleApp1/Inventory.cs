@@ -76,7 +76,6 @@ namespace FalloutUnderneath
             }
         }
 
-        // TODO
         
         public bool AddItemToInventory(Item item)
         {

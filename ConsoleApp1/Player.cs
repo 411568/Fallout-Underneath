@@ -113,6 +113,11 @@ namespace FalloutUnderneath
             inventory.ShowInventory(textInterface);
         }
 
+        public void AddItemToInventory(Item item)
+        {
+            inventory.AddItemToInventory(item);
+        }
+
 
         private bool CheckPickaxeState()
         {
