@@ -85,20 +85,30 @@ namespace FalloutUnderneath
             Console.Write("Items and enemies you can see on the map:");
            
             Console.SetCursorPosition(14, 18);
-            Console.Write("The doors to the next level: ");
+            Console.Write("* The doors to the next level: ");
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.Write("▓");
             Console.ForegroundColor = ConsoleColor.White;
 
             Console.SetCursorPosition(14, 19);
-            Console.Write("Wall hack potion - move through walls for 50 moves: ");
+            Console.Write("* Wall hack potion - move through walls for 50 moves: ");
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.Write("■");
             Console.ForegroundColor = ConsoleColor.White;
 
+            Console.SetCursorPosition(14, 20);
+            Console.Write("* Pickaxe - allows you to dig walls: ");
+            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            Console.Write("┌");
+            Console.ForegroundColor = ConsoleColor.White;
 
+            Console.SetCursorPosition(14, 21);
+            Console.Write("* Dynamite - destroys all the walls around you: ");
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
+            Console.Write("Í");
+            Console.ForegroundColor = ConsoleColor.White;
 
-            Console.SetCursorPosition(10, 22);
+            Console.SetCursorPosition(10, 25);
             Console.Write("Press any key to exit...");
 
             Console.ReadKey();

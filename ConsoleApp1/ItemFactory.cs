@@ -12,9 +12,9 @@ namespace FalloutUnderneath
 
         public Item CreateItem()
         {
-            int itemType = random.Next(2); // Generates a random number between 0 and 99
+            int itemType = random.Next(10); // Generates a random number between 0 and 99
 
-            if (itemType == 0)
+            if (itemType > 5)
             {
                 return new Dynamite();
             }

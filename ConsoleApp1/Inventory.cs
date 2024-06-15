@@ -157,11 +157,11 @@ namespace FalloutUnderneath
             textInteface.WriteTextAtLine("Action completed successfully!", 0);
         }
         
-        public bool AddItemToInventory(Item item)
+        public bool AddItemToInventory(Item item, ScreenTextInterface textInterface)
         {
             DebugLogger.Log("Adding item to inventory");
 
-            if(GetCurrentWeight() + item.GetWeight() < weightLimit)
+            if(GetCurrentWeight() + item.GetWeight() < weightLimit && itemList.Count < 5)
             {
                 DebugLogger.Log("Added item: " + item.GetItemName());
 
@@ -171,7 +171,12 @@ namespace FalloutUnderneath
             }
             else
             {
-                DebugLogger.LogError("can't add item to inventory, weight limit reached");
+                DebugLogger.Log("Can't add item to inventory, weight limit reached");
+
+                textInterface.ClearText();
+                textInterface.WriteTextAtLine("You can't carry any more!", 0);
+                Console.ReadKey(true);
+
                 return false;
             }
         }

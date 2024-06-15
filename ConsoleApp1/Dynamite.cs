@@ -63,7 +63,10 @@ namespace FalloutUnderneath
                 {
                     for(int y = startY; y < endY; y++)
                     {
-                        currentViewport.ChangeCharacterInPosition(x, y, ' ', ConsoleColor.White);
+                        if((x, y) != player.GetPlayerPosition())
+                        {
+                            currentViewport.ChangeCharacterInPosition(x, y, ' ', ConsoleColor.White);
+                        }
                     }
                 }
 

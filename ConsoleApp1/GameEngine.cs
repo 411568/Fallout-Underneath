@@ -78,6 +78,11 @@ namespace FalloutUnderneath
         {
             textInterface.ClearText();
 
+            foreach(Item item in itemList)
+            {
+                item.DrawOnViewport(currentViewport);
+            }
+
             player.DrawOnViewport(currentViewport);
             player.WriteOnTextInterface(textInterface);
         }
@@ -145,10 +150,13 @@ namespace FalloutUnderneath
 
                 if(itemPosition == playerPosition)
                 {
-                    player.AddItemToInventory(item);
+                    bool result = player.AddItemToInventory(item, textInterface);
                     if(item != null && itemList != null)
                     {
-                        itemNum = itemList.IndexOf(item);
+                        if(result == true)
+                        {
+                            itemNum = itemList.IndexOf(item);
+                        }
                     }
                     else
                     {
@@ -188,7 +196,7 @@ namespace FalloutUnderneath
 
             // * Spawning normal items for the user to pick up
             itemList.Clear();
-            int itemCount = random.Next(20);
+            int itemCount = random.Next(3);
             ItemFactory itemFactory = new ItemFactory();
             for(int i = 0; i < itemCount; i++)
             {

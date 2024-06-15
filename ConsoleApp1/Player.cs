@@ -71,7 +71,7 @@ namespace FalloutUnderneath
             playerHP = 100;
             moveThroughWalls = 0;
 
-            inventory.AddItemToInventory(new Pickaxe());
+            inventory.AddItemToInventory(new Pickaxe(), ScreenTextInterface.GetInstance());
         }
         
         private static Player? _instance;
@@ -116,9 +116,9 @@ namespace FalloutUnderneath
             // allow the player to choose an item from the list and use it or remove it from inventory
         }
 
-        public void AddItemToInventory(Item item)
+        public bool AddItemToInventory(Item item, ScreenTextInterface textInterface)
         {
-            inventory.AddItemToInventory(item);
+            return inventory.AddItemToInventory(item, textInterface);
         }
 
 
