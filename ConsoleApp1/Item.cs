@@ -37,7 +37,7 @@ namespace FalloutUnderneath
 
         public void DrawOnViewport(Viewport currentViewport)
         {
-            DebugLogger.Log($"Drawing item {itemName} on viewport");
+            DebugLogger.Log($"Drawing item  on viewport");
             
             currentViewport.ChangeCharacterInPosition(positionX, positionY, itemCharacter, itemColor);
         }

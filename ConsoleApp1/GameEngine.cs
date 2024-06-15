@@ -137,15 +137,14 @@ namespace FalloutUnderneath
 
             foreach(Item item in itemList)
             {
-                DebugLogger.Log($"Checking item: {item.GetItemName}");
+                string name = item.GetItemName();
+                DebugLogger.Log($"Checking item: {name}");
 
                 (int, int) itemPosition = item.GetItemPosition();
 
                 if(itemPosition == playerPosition)
                 {
                     player.AddItemToInventory(item);
-
-                    itemList.Remove(item);
                 }
             }
         }    

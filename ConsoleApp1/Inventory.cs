@@ -15,7 +15,7 @@ namespace FalloutUnderneath
 
         public Inventory(int playerLevel)
         {
-            weightLimit = playerLevel * 10;
+            weightLimit = playerLevel * 20;
             itemList = new List<Item>();
         }
 
@@ -23,7 +23,7 @@ namespace FalloutUnderneath
         {
             DebugLogger.Log("Updating weight limit in player inventory");
     
-            weightLimit = playerLevel * 10;
+            weightLimit = playerLevel * 20;
         }
 
         public int GetCurrentWeight()
