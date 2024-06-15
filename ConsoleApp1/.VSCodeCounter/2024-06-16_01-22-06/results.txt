@@ -1,0 +1,65 @@
+Date : 2024-06-16 01:22:06
+Directory : c:\Users\krzys\Desktop\C-_PROJECT\ConsoleApp1
+Total : 30 files,  1482 codes, 86 comments, 302 blanks, all 1870 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| C#         |         21 |      1,257 |         86 |        298 |      1,641 |
+| JSON       |          5 |        186 |          0 |          0 |        186 |
+| XML        |          3 |         26 |          0 |          3 |         29 |
+| Properties |          1 |         13 |          0 |          1 |         14 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                 | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                    |         30 |      1,482 |         86 |        302 |      1,870 |
+| . (Files)                                                                                                            |         19 |      1,246 |         75 |        294 |      1,615 |
+| bin                                                                                                                  |          2 |         35 |          0 |          0 |         35 |
+| bin\Debug                                                                                                            |          2 |         35 |          0 |          0 |         35 |
+| bin\Debug\net8.0                                                                                                     |          2 |         35 |          0 |          0 |         35 |
+| obj                                                                                                                  |          9 |        201 |         11 |          8 |        220 |
+| obj (Files)                                                                                                          |          4 |        168 |          0 |          0 |        168 |
+| obj\Debug                                                                                                            |          5 |         33 |         11 |          8 |         52 |
+| obj\Debug\net8.0                                                                                                     |          5 |         33 |         11 |          8 |         52 |
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                             | language   | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\krzys\Desktop\C-_PROJECT\ConsoleApp1\ConsoleApp1.csproj                                                     | XML        |          8 |          0 |          3 |         11 |
+| c:\Users\krzys\Desktop\C-_PROJECT\ConsoleApp1\DebugLogger.cs                                                         | C#         |         55 |          6 |         10 |         71 |
+| c:\Users\krzys\Desktop\C-_PROJECT\ConsoleApp1\Dynamite.cs                                                            | C#         |         72 |          0 |         18 |         90 |
+| c:\Users\krzys\Desktop\C-_PROJECT\ConsoleApp1\ExitDoor.cs                                                            | C#         |         36 |          0 |          6 |         42 |
+| c:\Users\krzys\Desktop\C-_PROJECT\ConsoleApp1\GameEngine.cs                                                          | C#         |        161 |         18 |         42 |        221 |
+| c:\Users\krzys\Desktop\C-_PROJECT\ConsoleApp1\GameMap.cs                                                             | C#         |        102 |          8 |         25 |        135 |
+| c:\Users\krzys\Desktop\C-_PROJECT\ConsoleApp1\IDrawable.cs                                                           | C#         |          9 |          0 |          2 |         11 |
+| c:\Users\krzys\Desktop\C-_PROJECT\ConsoleApp1\ITextInterface.cs                                                      | C#         |          9 |          0 |          2 |         11 |
+| c:\Users\krzys\Desktop\C-_PROJECT\ConsoleApp1\Inventory.cs                                                           | C#         |        148 |         27 |         32 |        207 |
+| c:\Users\krzys\Desktop\C-_PROJECT\ConsoleApp1\Item.cs                                                                | C#         |         34 |          0 |         11 |         45 |
+| c:\Users\krzys\Desktop\C-_PROJECT\ConsoleApp1\ItemFactory.cs                                                         | C#         |         23 |          0 |          4 |         27 |
+| c:\Users\krzys\Desktop\C-_PROJECT\ConsoleApp1\MainMenu.cs                                                            | C#         |         94 |          0 |         24 |        118 |
+| c:\Users\krzys\Desktop\C-_PROJECT\ConsoleApp1\Pickaxe.cs                                                             | C#         |         42 |          0 |         10 |         52 |
+| c:\Users\krzys\Desktop\C-_PROJECT\ConsoleApp1\Player.cs                                                              | C#         |        256 |         11 |         50 |        317 |
+| c:\Users\krzys\Desktop\C-_PROJECT\ConsoleApp1\Program.cs                                                             | C#         |         17 |          2 |          6 |         25 |
+| c:\Users\krzys\Desktop\C-_PROJECT\ConsoleApp1\ScreenTextInterface.cs                                                 | C#         |         67 |          3 |         16 |         86 |
+| c:\Users\krzys\Desktop\C-_PROJECT\ConsoleApp1\SpecialItems.cs                                                        | C#         |         15 |          0 |          4 |         19 |
+| c:\Users\krzys\Desktop\C-_PROJECT\ConsoleApp1\Viewport.cs                                                            | C#         |         58 |          0 |         20 |         78 |
+| c:\Users\krzys\Desktop\C-_PROJECT\ConsoleApp1\WallHackItem.cs                                                        | C#         |         40 |          0 |          9 |         49 |
+| c:\Users\krzys\Desktop\C-_PROJECT\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.deps.json                                 | JSON       |         23 |          0 |          0 |         23 |
+| c:\Users\krzys\Desktop\C-_PROJECT\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.runtimeconfig.json                        | JSON       |         12 |          0 |          0 |         12 |
+| c:\Users\krzys\Desktop\C-_PROJECT\ConsoleApp1\obj\ConsoleApp1.csproj.nuget.dgspec.json                               | JSON       |         72 |          0 |          0 |         72 |
+| c:\Users\krzys\Desktop\C-_PROJECT\ConsoleApp1\obj\ConsoleApp1.csproj.nuget.g.props                                   | XML        |         16 |          0 |          0 |         16 |
+| c:\Users\krzys\Desktop\C-_PROJECT\ConsoleApp1\obj\ConsoleApp1.csproj.nuget.g.targets                                 | XML        |          2 |          0 |          0 |          2 |
+| c:\Users\krzys\Desktop\C-_PROJECT\ConsoleApp1\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs        | C#         |          3 |          1 |          1 |          5 |
+| c:\Users\krzys\Desktop\C-_PROJECT\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.AssemblyInfo.cs                           | C#         |          9 |          9 |          5 |         23 |
+| c:\Users\krzys\Desktop\C-_PROJECT\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig | Properties |         13 |          0 |          1 |         14 |
+| c:\Users\krzys\Desktop\C-_PROJECT\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.GlobalUsings.g.cs                         | C#         |          7 |          1 |          1 |          9 |
+| c:\Users\krzys\Desktop\C-_PROJECT\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.sourcelink.json                           | JSON       |          1 |          0 |          0 |          1 |
+| c:\Users\krzys\Desktop\C-_PROJECT\ConsoleApp1\obj\project.assets.json                                                | JSON       |         78 |          0 |          0 |         78 |
+| Total                                                                                                                |            |      1,482 |         86 |        302 |      1,870 |
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
