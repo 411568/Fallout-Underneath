@@ -111,6 +111,9 @@ namespace FalloutUnderneath
         public void OpenInventory(ScreenTextInterface textInterface)
         {
             inventory.ShowInventory(textInterface);
+
+            // TODO
+            // allow the player to choose an item from the list and use it or remove it from inventory
         }
 
         public void AddItemToInventory(Item item)

@@ -40,7 +40,7 @@ namespace FalloutUnderneath
             Console.SetCursorPosition(10, 15);
             Console.Write("3. Exit game");
 
-            ConsoleKeyInfo key = Console.ReadKey();
+            ConsoleKeyInfo key = Console.ReadKey(true);
 
             switch(key.KeyChar)
             {

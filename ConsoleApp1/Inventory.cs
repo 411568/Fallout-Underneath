@@ -50,6 +50,41 @@ namespace FalloutUnderneath
         {
             DebugLogger.Log("showing inventory");
 
+            if(itemList.Count > 0)
+            {
+                int i = 0;
+                foreach(Item item in itemList)
+                {
+                    string textOutput = i.ToString() + ". " + item.GetStats();
+
+                    if(i > 4)
+                    {
+                        DebugLogger.LogError("Too many items in inventory");
+                    }
+                    else
+                    {
+                        textInteface.WriteTextAtLine(textOutput, i);
+                        i++;
+                    }
+                }
+
+                ConsoleKeyInfo key = Console.ReadKey(true);
+                if (char.IsDigit(key.KeyChar))
+                {
+                    int selectedOption = int.Parse(key.KeyChar.ToString());
+
+                    if(selectedOption >= 0 && selectedOption < i)
+                    {
+                        ShowDialogForItem(itemList[selectedOption], textInteface);
+                    }
+                }
+            }
+            else
+            {
+                textInteface.WriteTextAtLine("Inventory empty!", 0);
+            }
+
+            /*
             string textOutput = "";
             int line = 0;
 
@@ -74,8 +109,50 @@ namespace FalloutUnderneath
             {
                 textInteface.WriteTextAtLine(textOutput, line);
             }
+            */
         }
 
+        private void ShowDialogForItem(Item item, ScreenTextInterface textInteface)
+        {
+            string name = item.GetItemName();
+            DebugLogger.Log($"Showing dialog window for item: {name}");
+
+            textInteface.ClearText();
+
+            textInteface.WriteTextAtLine("Chosen item: " + name, 0);
+            textInteface.WriteTextAtLine("1. Use item", 1);
+            textInteface.WriteTextAtLine("2. Remove item", 2);
+
+            ConsoleKeyInfo key = Console.ReadKey(true);
+            DebugLogger.Log($"Pressed button: {key.KeyChar}");
+
+            switch(key.KeyChar)
+            {
+                case '1':
+                    DebugLogger.Log("Using item...");    
+                    item.UseItem();
+                    break;
+                case '2': 
+                    if (itemList == null || item == null)
+                    {
+                        DebugLogger.LogError("item doesn't exist or the list is empty");
+                        break;
+                    }
+                    bool removed = itemList.Remove(item);
+                    if(removed)
+                    {
+                        DebugLogger.Log("Item removed");
+                    }
+                    else
+                    {
+                        DebugLogger.LogError("Item could not be removed");
+                    }
+                    break;
+                default:
+                    DebugLogger.Log("Wrong input in item choice");
+                    break;
+            }
+        }
         
         public bool AddItemToInventory(Item item)
         {
