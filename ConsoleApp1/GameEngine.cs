@@ -5,7 +5,7 @@ using System.Text;
 
 namespace FalloutUnderneath
 {
-    class GameEngine
+    public class GameEngine
     {
         private GameEngine() {}
 
@@ -15,6 +15,9 @@ namespace FalloutUnderneath
         private Viewport currentViewport = Viewport.GetInstance();
         private ScreenTextInterface textInterface = ScreenTextInterface.GetInstance();
         private MainMenu mainMenu = MainMenu.GetInstance();
+        private ExitDoor exitDoor = new ExitDoor();
+        private List<SpecialItems> specialItemsList = new List<SpecialItems>();
+        private WallHackItem wallHackItem = new WallHackItem();
 
         private bool _gameOver = false;
 
@@ -48,6 +51,12 @@ namespace FalloutUnderneath
             // Draw text interface 
             textInterface.ClearText();
 
+            // Draw the level exit door on viewport
+            exitDoor.DrawOnViewport(currentViewport);
+
+            // Add special items to list
+            specialItemsList.Add(exitDoor);
+
             DebugLogger.Log("Starting main game loop");
 
             // Start the game loop
@@ -66,6 +75,8 @@ namespace FalloutUnderneath
 
         private void Redraw()
         {
+            textInterface.ClearText();
+
             player.DrawOnViewport(currentViewport);
             player.WriteOnTextInterface(textInterface);
         }
@@ -93,6 +104,7 @@ namespace FalloutUnderneath
                     break;
                 case ConsoleKey.I:
                     player.OpenInventory(textInterface);
+                    Console.ReadKey();
                     break;
                 case ConsoleKey.Escape: // * Exit game
                     DebugLogger.Log("Exiting game...");
@@ -104,6 +116,51 @@ namespace FalloutUnderneath
         private void UpdateObjectState()
         {
             // TODO
+            foreach(SpecialItems specialItem in specialItemsList)
+            {
+                DebugLogger.Log($"Item: {specialItem.itemName}");
+
+                if(specialItem.InteractWithItem(player, currentViewport, this) == true)
+                {
+                    DebugLogger.Log("interaction with player returned true");
+
+                    if(specialItem.itemName == "ExitDoor")
+                    {
+                        NextGameLevel();
+                    }
+                }
+            }
         }    
+
+        public void NextGameLevel()
+        {
+            int level = player.GetPlayerLevel();
+            DebugLogger.Log($"We got to the next level, current level: {level}");
+
+            // Draw new level map
+            currentViewport.RedrawCurrentViewport();
+
+            specialItemsList.Clear();
+            specialItemsList.Add(exitDoor);
+
+            Random random = new Random();
+            if(random.Next(0, 10) > 9)
+            {
+                specialItemsList.Add(wallHackItem);
+                wallHackItem.DrawOnViewport(currentViewport);
+            }
+
+            // Draw the special itemson viewport
+            exitDoor.DrawOnViewport(currentViewport);
+
+            // Change player position
+            player.GoToStartPosition();
+
+            // Clear text interface
+            textInterface.ClearText();
+
+            // Restart game loop
+            GameLoop();
+        }
     }
 }

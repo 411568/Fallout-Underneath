@@ -51,7 +51,7 @@ namespace FalloutUnderneath
             DebugLogger.Log("showing inventory");
 
             string textOutput = "";
-            int line = 1;
+            int line = 0;
 
             foreach(Item item in itemList)
             {
@@ -62,11 +62,11 @@ namespace FalloutUnderneath
                 {
                     textInteface.WriteTextAtLine(textOutput, line);
                     textOutput = "";
-                    line = 2;
+                    line++;
                 }
             }
 
-            if(textOutput.Length > 20)
+            if(line > 4)
             {
                 DebugLogger.LogError("text output from inventory too long");
             }

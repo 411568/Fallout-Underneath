@@ -6,9 +6,9 @@ using System.Text;
 
 namespace FalloutUnderneath
 {
-    class Player : IDrawable, ITextInterface
+    public class Player : IDrawable, ITextInterface
     {
-        private char playerCharacter = '@';
+        private char playerCharacter = '■';
         private ConsoleColor playerColor = ConsoleColor.Green;
         private int playerX;
         private int playerY;
@@ -18,11 +18,43 @@ namespace FalloutUnderneath
         private int playerSpeed;
         private bool digThroughWall;
 
+        private readonly char wallCharacter = '█';
         private int playerLevel;
 
         private int playerHP;
+        private int moveThroughWalls;
 
         private Inventory inventory;
+
+        public (int, int) GetPlayerPosition()
+        {
+            return (playerX, playerY);
+        }
+        
+        public void TurnOnWallHack()
+        {
+            moveThroughWalls = 50;
+        }
+
+        public int GetPlayerLevel()
+        {
+            return playerLevel;
+        }
+
+        public void GoToStartPosition()
+        {
+            DebugLogger.Log("Player going to 0,0");
+
+            playerX = 1;
+            playerY = 1;
+            previousX = 1;
+            previousY = 1;
+        }
+
+        public void IncreaseLevel()
+        {
+            playerLevel++;
+        }
 
         private Player()
         {
@@ -37,6 +69,7 @@ namespace FalloutUnderneath
             playerSpeed = 1;
             digThroughWall = false;
             playerHP = 100;
+            moveThroughWalls = 0;
 
             inventory.AddItemToInventory(new Pickaxe());
         }
@@ -69,6 +102,10 @@ namespace FalloutUnderneath
             DebugLogger.Log("Writing player stats to text interface");
 
             textInterface.WriteTextAtLine("Player stats: level " + playerLevel.ToString() + ", hp " + playerHP.ToString(), 0);
+            if(moveThroughWalls > 0)
+            {
+                textInterface.WriteTextAtLine("   Wall hack enabled!", 1);
+            }
         }
 
         public void OpenInventory(ScreenTextInterface textInterface)
@@ -112,10 +149,23 @@ namespace FalloutUnderneath
             {
                 DebugLogger.Log($"Moving player in direction X: {xInput}, Y: {yInput}");
 
+                if(moveThroughWalls > 0)
+                {
+                    moveThroughWalls--;
+                }
+
                 if(xInput == 1)
                 {
-                    if(currentViewport.GetCharacterFromPosition(playerX+playerSpeed, playerY) == '#')
+                    if(currentViewport.GetCharacterFromPosition(playerX+playerSpeed, playerY) == wallCharacter)
                     {
+                        if(moveThroughWalls > 0)
+                        {
+                            previousX = playerX;
+                            playerX++;
+
+                            digThroughWall = false;
+                        }
+
                         // Double check if the player wants to try and go through wall
                         if(digThroughWall == true)
                         {
@@ -143,8 +193,16 @@ namespace FalloutUnderneath
                 }
                 if(xInput == -1)
                 {
-                    if(currentViewport.GetCharacterFromPosition(playerX-playerSpeed, playerY) == '#')
+                    if(currentViewport.GetCharacterFromPosition(playerX-playerSpeed, playerY) == wallCharacter)
                     {
+                        if(moveThroughWalls > 0)
+                        {
+                            previousX = playerX;
+                            playerX--;
+
+                            digThroughWall = false;
+                        }
+
                         // Double check if the player wants to try and go through wall
                         if(digThroughWall == true)
                         {
@@ -173,8 +231,16 @@ namespace FalloutUnderneath
 
                 if(yInput == 1)
                 {
-                    if(currentViewport.GetCharacterFromPosition(playerX, playerY+playerSpeed) == '#')
+                    if(currentViewport.GetCharacterFromPosition(playerX, playerY+playerSpeed) == wallCharacter)
                     {
+                        if(moveThroughWalls > 0)
+                        { 
+                            previousY = playerY;
+                            playerY++;
+
+                            digThroughWall = false;
+                        }
+
                         // Double check if the player wants to try and go through wall
                         if(digThroughWall == true)
                         {
@@ -202,8 +268,16 @@ namespace FalloutUnderneath
                 }
                 if(yInput == -1)
                 {
-                    if(currentViewport.GetCharacterFromPosition(playerX, playerY-playerSpeed) == '#')
+                    if(currentViewport.GetCharacterFromPosition(playerX, playerY-playerSpeed) == wallCharacter)
                     {
+                        if(moveThroughWalls > 0)
+                        { 
+                            previousY = playerY;
+                            playerY--;
+
+                            digThroughWall = false;
+                        }
+
                         // Double check if the player wants to try and go through wall
                         if(digThroughWall == true)
                         {

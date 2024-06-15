@@ -26,7 +26,9 @@ namespace FalloutUnderneath
             Console.Clear();
 
             Console.SetCursorPosition(10, 10);
+            Console.ForegroundColor = ConsoleColor.DarkRed;
             Console.Write("Fallout Underneath");
+            Console.ForegroundColor = ConsoleColor.White;
 
             Console.SetCursorPosition(10, 12);
             Console.Write("Main menu");
@@ -65,7 +67,9 @@ namespace FalloutUnderneath
             Console.Clear();
 
             Console.SetCursorPosition(10, 10);
+            Console.ForegroundColor = ConsoleColor.DarkRed;
             Console.Write("Fallout Underneath");
+            Console.ForegroundColor = ConsoleColor.White;
 
             Console.SetCursorPosition(10, 12);
             Console.Write("User input:");
@@ -76,9 +80,25 @@ namespace FalloutUnderneath
             Console.Write("Open inventory: I");
             Console.SetCursorPosition(10, 15);
             Console.Write("Exit game: Esc");
-
-
+            
             Console.SetCursorPosition(10, 17);
+            Console.Write("Items and enemies you can see on the map:");
+           
+            Console.SetCursorPosition(14, 18);
+            Console.Write("The doors to the next level: ");
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.Write("▓");
+            Console.ForegroundColor = ConsoleColor.White;
+
+            Console.SetCursorPosition(14, 19);
+            Console.Write("Wall hack potion - move through walls for 50 moves: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.Write("■");
+            Console.ForegroundColor = ConsoleColor.White;
+
+
+
+            Console.SetCursorPosition(10, 22);
             Console.Write("Press any key to exit...");
 
             Console.ReadKey();

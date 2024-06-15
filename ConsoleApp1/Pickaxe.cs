@@ -10,7 +10,7 @@ namespace FalloutUnderneath
         {
             weight = 5;
             itemName = "Pickaxe";
-            wearLevel = 10;
+            wearLevel = 100;
         }
 
         public int GetWearLevel()

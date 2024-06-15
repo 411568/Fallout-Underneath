@@ -28,14 +28,14 @@ namespace FalloutUnderneath
         {
             DebugLogger.Log("Creating viewport...");
 
-            currentMap = gameMapGenerator.GetNewMap();
+            currentMap = gameMapGenerator.GetNewMap(1);
         }
 
         public bool ChangeViewport(int currentLevel)
         {
             DebugLogger.Log("Changed viewport");
 
-            currentMap = gameMapGenerator.GetNewMap();
+            currentMap = gameMapGenerator.GetNewMap(currentLevel);
         
             return true;
         }
@@ -50,6 +50,7 @@ namespace FalloutUnderneath
             {
                 for (int x = 0; x < currentMap.GetLength(0); x++)
                 {
+                    Console.ForegroundColor = ConsoleColor.DarkGray;
                     Console.Write(currentMap[x, y]);
                 }
                 Console.WriteLine();

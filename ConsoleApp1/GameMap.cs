@@ -14,6 +14,8 @@ namespace FalloutUnderneath
         static private int mapHeight = 10;
         private char[,] wholeMap;
 
+        private readonly char wallCharacter = '█';
+
         // For the maze generating functions
         private Random rand = new Random();
         private static readonly int[] dx = { 0, 1, 0, -1 };
@@ -28,16 +30,16 @@ namespace FalloutUnderneath
             wholeMap = new char[mapWidth*2+1, mapHeight*2+1];
         }
 
-        public char[,] GetNewMap()
+        public char[,] GetNewMap(int currentLevel)
         {
             DebugLogger.Log("Creating new map");
 
-            CreateNewMap();
+            CreateNewMap(currentLevel);
 
             return wholeMap;
         }
 
-        public void CreateNewMap()
+        public void CreateNewMap(int currentLevel)
         {
             DebugLogger.Log("Creating new map");
 
@@ -46,7 +48,7 @@ namespace FalloutUnderneath
             {
                 for (int x = 0; x < wholeMap.GetLength(0); x++)
                 {
-                    wholeMap[x, y] = '#'; // Wall
+                    wholeMap[x, y] = wallCharacter; // Wall
                 }
             }
 
@@ -54,7 +56,7 @@ namespace FalloutUnderneath
             CarvePassagesFrom(1, 1);
 
             // Add random walls so that it is harder to go through
-            AddRandomWalls(20);
+            AddRandomWalls(currentLevel * 10);
         }
 
         public bool GetMapFromFile(string fileName)
@@ -73,7 +75,7 @@ namespace FalloutUnderneath
                 int nx = cx + dx[direction] * 2;
                 int ny = cy + dy[direction] * 2;
 
-                if (IsInBounds(nx, ny) && wholeMap[nx, ny] == '#')
+                if (IsInBounds(nx, ny) && wholeMap[nx, ny] == wallCharacter)
                 {
                     wholeMap[cx + dx[direction], cy + dy[direction]] = ' '; // Passage
                     wholeMap[nx, ny] = ' '; // Passage
@@ -110,7 +112,7 @@ namespace FalloutUnderneath
                 // Ensure we do not block the start or exit points
                 if (wholeMap[x, y] == ' ' && !(x == 1 && y == 1) && !(x == mapWidth * 2 - 1 && y == mapHeight * 2 - 1))
                 {
-                    wholeMap[x, y] = '#';
+                    wholeMap[x, y] = wallCharacter;
                     addedWalls++;
                 }
             }
