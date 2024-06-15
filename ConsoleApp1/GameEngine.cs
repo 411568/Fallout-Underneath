@@ -185,7 +185,7 @@ namespace FalloutUnderneath
             specialItemsList.Add(exitDoor);
 
             Random random = new Random();
-            if(random.Next(0, 10) > 9)
+            if(random.Next(10) > 7)
             {
                 specialItemsList.Add(wallHackItem);
                 wallHackItem.DrawOnViewport(currentViewport);
