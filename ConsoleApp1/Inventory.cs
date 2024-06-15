@@ -152,6 +152,9 @@ namespace FalloutUnderneath
                     DebugLogger.Log("Wrong input in item choice");
                     break;
             }
+
+            textInteface.ClearText();
+            textInteface.WriteTextAtLine("Action completed successfully!", 0);
         }
         
         public bool AddItemToInventory(Item item)

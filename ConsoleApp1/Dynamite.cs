@@ -33,7 +33,7 @@ namespace FalloutUnderneath
                 wearLevel = 0;
                 weight = 0;
 
-                int startX = player.GetPlayerPosition().Item1 - 5;
+                int startX = player.GetPlayerPosition().Item1 - 10;
                 int startY = player.GetPlayerPosition().Item2 - 5;
                 
                 if(startX <= 0)
@@ -46,7 +46,7 @@ namespace FalloutUnderneath
                     startY = 1;
                 }
 
-                int endX = player.GetPlayerPosition().Item1 + 5;
+                int endX = player.GetPlayerPosition().Item1 + 10;
                 int endY = player.GetPlayerPosition().Item2 + 5;
 
                 if(endX >= 80)

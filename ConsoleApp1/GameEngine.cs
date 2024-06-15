@@ -134,6 +134,7 @@ namespace FalloutUnderneath
 
             // Checking interactions with normal items (picking them up and adding to inventory) 
             (int, int) playerPosition = player.GetPlayerPosition();
+            int itemNum = -1;
 
             foreach(Item item in itemList)
             {
@@ -145,7 +146,21 @@ namespace FalloutUnderneath
                 if(itemPosition == playerPosition)
                 {
                     player.AddItemToInventory(item);
+                    if(item != null && itemList != null)
+                    {
+                        itemNum = itemList.IndexOf(item);
+                    }
+                    else
+                    {
+                        DebugLogger.LogError("Item could not be removed");
+                    }
                 }
+            }
+
+            if(itemNum != -1 && itemList != null)
+            {
+                DebugLogger.Log("Item removed from list");
+                itemList.RemoveAt(itemNum);
             }
         }    
 
@@ -173,7 +188,7 @@ namespace FalloutUnderneath
 
             // * Spawning normal items for the user to pick up
             itemList.Clear();
-            int itemCount = random.Next(2);
+            int itemCount = random.Next(20);
             ItemFactory itemFactory = new ItemFactory();
             for(int i = 0; i < itemCount; i++)
             {
