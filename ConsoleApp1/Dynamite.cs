@@ -9,7 +9,7 @@ namespace FalloutUnderneath
     {
         public Dynamite()
         {
-            weight = 10;
+            weight = 5;
             itemName = "Dynamite";
             wearLevel = 1;
             itemColor = ConsoleColor.DarkYellow;

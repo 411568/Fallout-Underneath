@@ -8,7 +8,7 @@ namespace FalloutUnderneath
     {
         public Pickaxe()
         {
-            weight = 5;
+            weight = 10;
             itemName = "Pickaxe";
             wearLevel = 100;
             itemColor = ConsoleColor.DarkMagenta;

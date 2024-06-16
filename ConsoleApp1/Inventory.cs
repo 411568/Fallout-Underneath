@@ -15,7 +15,7 @@ namespace FalloutUnderneath
 
         public Inventory(int playerLevel)
         {
-            weightLimit = playerLevel * 20;
+            weightLimit = playerLevel * 2 + 10;
             itemList = new List<Item>();
         }
 
@@ -23,13 +23,23 @@ namespace FalloutUnderneath
         {
             DebugLogger.Log("Updating weight limit in player inventory");
     
-            weightLimit = playerLevel * 20;
+            weightLimit = playerLevel * 2 + 10;
         }
 
         public int GetCurrentWeight()
         {
-            // TODO
-            return 0;
+            int currentWeight = 0;
+            foreach(Item item in itemList)
+            {
+                currentWeight += item.GetWeight();
+            }
+
+            return currentWeight;
+        }
+
+        public int GetCurrentWeightLimit()
+        {
+            return weightLimit;
         }
 
         public bool CheckIfOverweight()
@@ -49,6 +59,8 @@ namespace FalloutUnderneath
         public void ShowInventory(ScreenTextInterface textInteface)
         {
             DebugLogger.Log("showing inventory");
+
+            textInteface.ClearText();
 
             if(itemList.Count > 0)
             {
@@ -161,7 +173,7 @@ namespace FalloutUnderneath
         {
             DebugLogger.Log("Adding item to inventory");
 
-            if(GetCurrentWeight() + item.GetWeight() < weightLimit && itemList.Count < 5)
+            if(GetCurrentWeight() + item.GetWeight() <= weightLimit && itemList.Count < 5)
             {
                 DebugLogger.Log("Added item: " + item.GetItemName());
 
@@ -175,6 +187,16 @@ namespace FalloutUnderneath
 
                 textInterface.ClearText();
                 textInterface.WriteTextAtLine("You can't carry any more!", 0);
+            
+                if(GetCurrentWeight() + item.GetWeight() > weightLimit)
+                {
+                    textInterface.WriteTextAtLine("   You reached the current weight limit.", 1);
+                }
+                else
+                {
+                    textInterface.WriteTextAtLine("   You reached the current item count limit.", 1);
+                }
+
                 Console.ReadKey(true);
 
                 return false;

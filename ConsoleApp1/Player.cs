@@ -54,6 +54,7 @@ namespace FalloutUnderneath
         public void IncreaseLevel()
         {
             playerLevel++;
+            inventory.UpdatePlayerLevel(playerLevel);
         }
 
         private Player()
@@ -101,10 +102,13 @@ namespace FalloutUnderneath
         {
             DebugLogger.Log("Writing player stats to text interface");
 
-            textInterface.WriteTextAtLine("Player stats: level " + playerLevel.ToString() + ", hp " + playerHP.ToString(), 0);
+            textInterface.WriteTextAtLine("Player stats: ", 0);
+            textInterface.WriteTextAtLine("  * Level " + playerLevel.ToString() + ", hp " + playerHP.ToString(), 1);
+            textInterface.WriteTextAtLine("  * Weight  " + inventory.GetCurrentWeight() + " / " + inventory.GetCurrentWeightLimit(), 2);
+
             if(moveThroughWalls > 0)
             {
-                textInterface.WriteTextAtLine("   Wall hack enabled!", 1);
+                textInterface.WriteTextAtLine(" ! Wall hack enabled ! ", 3);
             }
         }
 
@@ -162,7 +166,7 @@ namespace FalloutUnderneath
                     moveThroughWalls--;
                 }
 
-                if(xInput == 1)
+                if(xInput == 1 && playerX < 79)
                 {
                     if(currentViewport.GetCharacterFromPosition(playerX+playerSpeed, playerY) == wallCharacter)
                     {
@@ -199,7 +203,7 @@ namespace FalloutUnderneath
                         digThroughWall = false;
                     }
                 }
-                if(xInput == -1)
+                if(xInput == -1 && playerX > 1)
                 {
                     if(currentViewport.GetCharacterFromPosition(playerX-playerSpeed, playerY) == wallCharacter)
                     {
@@ -237,7 +241,7 @@ namespace FalloutUnderneath
                     }
                 }
 
-                if(yInput == 1)
+                if(yInput == 1 && playerY < 19)
                 {
                     if(currentViewport.GetCharacterFromPosition(playerX, playerY+playerSpeed) == wallCharacter)
                     {
@@ -274,7 +278,7 @@ namespace FalloutUnderneath
                         digThroughWall = false;
                     }
                 }
-                if(yInput == -1)
+                if(yInput == -1 && playerY > 1)
                 {
                     if(currentViewport.GetCharacterFromPosition(playerX, playerY-playerSpeed) == wallCharacter)
                     {
