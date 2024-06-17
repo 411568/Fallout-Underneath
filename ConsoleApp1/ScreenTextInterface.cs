@@ -61,6 +61,14 @@ namespace FalloutUnderneath
 
                 WriteAt("                                                                       ", 7, lineNumber + line + 1); // Clear the line we want to write on
                 Console.ForegroundColor = ConsoleColor.White;
+
+                int textLength = text.Length;
+                for(int i = 0; i < 70-textLength; i++)
+                {
+                    text += ' ';
+                }
+                text += '|';
+
                 WriteAt(text, 7, lineNumber + line + 1); // Write text on the line
             }
             else
@@ -74,13 +82,14 @@ namespace FalloutUnderneath
         {
             DebugLogger.Log("Clearing text interface");
 
-            WriteAt("    __________________________________________________________________________", 0, lineNumber);
-            WriteAt("    |                                                                        |", 0, lineNumber + 1);
-            WriteAt("    |                                                                        |", 0, lineNumber + 2);
-            WriteAt("    |                                                                        |", 0, lineNumber + 3);
-            WriteAt("    |                                                                        |", 0, lineNumber + 4);
-            WriteAt("    |                                                                        |", 0, lineNumber + 5);
-            WriteAt("    \\________________________________________________________________________/", 0, lineNumber + 6);
+            Console.ForegroundColor = ConsoleColor.White;
+            WriteAt("    __________________________________________________________________________ ", 0, lineNumber);
+            WriteAt("    |                                                                        | ", 0, lineNumber + 1);
+            WriteAt("    |                                                                        | ", 0, lineNumber + 2);
+            WriteAt("    |                                                                        | ", 0, lineNumber + 3);
+            WriteAt("    |                                                                        | ", 0, lineNumber + 4);
+            WriteAt("    |                                                                        | ", 0, lineNumber + 5);
+            WriteAt("    \\________________________________________________________________________/ ", 0, lineNumber + 6);
         }
     }
 }
