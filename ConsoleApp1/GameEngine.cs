@@ -25,7 +25,6 @@ namespace FalloutUnderneath
 
         private bool _gameOver = false;
 
-        // TODO
         private Player player = Player.GetInstance(); 
 
         public static GameEngine GetInstance()

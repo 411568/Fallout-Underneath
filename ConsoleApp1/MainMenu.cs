@@ -66,49 +66,61 @@ namespace FalloutUnderneath
 
             Console.Clear();
 
-            Console.SetCursorPosition(10, 10);
+            Console.SetCursorPosition(10, 5);
             Console.ForegroundColor = ConsoleColor.DarkRed;
             Console.Write("Fallout Underneath");
             Console.ForegroundColor = ConsoleColor.White;
 
-            Console.SetCursorPosition(10, 12);
+            Console.SetCursorPosition(10, 7);
             Console.Write("User input:");
 
-            Console.SetCursorPosition(10, 13);
+            Console.SetCursorPosition(10, 8);
             Console.Write("Move: W/A/S/D");
-            Console.SetCursorPosition(10, 14);
+            Console.SetCursorPosition(10, 9);
             Console.Write("Open inventory: I");
-            Console.SetCursorPosition(10, 15);
+            Console.SetCursorPosition(10, 10);
             Console.Write("Exit game: Esc");
             
-            Console.SetCursorPosition(10, 17);
+            Console.SetCursorPosition(10, 12);
             Console.Write("Items and enemies you can see on the map:");
            
-            Console.SetCursorPosition(14, 18);
+            Console.SetCursorPosition(14, 13);
             Console.Write("* The doors to the next level: ");
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.Write("▓");
             Console.ForegroundColor = ConsoleColor.White;
 
-            Console.SetCursorPosition(14, 19);
+            Console.SetCursorPosition(14, 14);
             Console.Write("* Wall hack potion - move through walls for 50 moves: ");
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.Write("■");
             Console.ForegroundColor = ConsoleColor.White;
 
-            Console.SetCursorPosition(14, 20);
+            Console.SetCursorPosition(14, 15);
             Console.Write("* Pickaxe - allows you to dig walls: ");
             Console.ForegroundColor = ConsoleColor.DarkMagenta;
             Console.Write("┌");
             Console.ForegroundColor = ConsoleColor.White;
 
-            Console.SetCursorPosition(14, 21);
+            Console.SetCursorPosition(14, 16);
             Console.Write("* Dynamite - destroys all the walls around you: ");
             Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.Write("Í");
             Console.ForegroundColor = ConsoleColor.White;
 
-            Console.SetCursorPosition(10, 25);
+            Console.SetCursorPosition(14, 17);
+            Console.Write("* Ghoul - deals 10 dmg, tries to move towards you. ");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write("!");
+            Console.ForegroundColor = ConsoleColor.White;
+
+            Console.SetCursorPosition(14, 18);
+            Console.Write("* Feral Ghoul - deals 50 dmg, doesn't die from dynamite. ");
+            Console.ForegroundColor = ConsoleColor.Magenta;
+            Console.Write("!");
+            Console.ForegroundColor = ConsoleColor.White;
+
+            Console.SetCursorPosition(10, 22);
             Console.Write("Press any key to exit...");
 
             Console.ReadKey();
