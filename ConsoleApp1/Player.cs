@@ -17,6 +17,7 @@ namespace FalloutUnderneath
 
         private int playerSpeed;
         private bool digThroughWall;
+        private int playerDmg;
 
         private readonly char wallCharacter = '█';
         private int playerLevel;
@@ -62,6 +63,7 @@ namespace FalloutUnderneath
             DebugLogger.Log("Initializing player");
 
             playerLevel = 1;
+            playerDmg = 100;
             inventory = new Inventory(playerLevel);
             playerX = 1;
             playerY = 1;
@@ -115,14 +117,17 @@ namespace FalloutUnderneath
         public void OpenInventory(ScreenTextInterface textInterface)
         {
             inventory.ShowInventory(textInterface);
-
-            // TODO
-            // allow the player to choose an item from the list and use it or remove it from inventory
         }
 
         public bool AddItemToInventory(Item item, ScreenTextInterface textInterface)
         {
             return inventory.AddItemToInventory(item, textInterface);
+        }
+
+        public int FightWithEnemy(int damageToPlayer)
+        {   
+            playerHP -= damageToPlayer;
+            return playerDmg;
         }
 
 

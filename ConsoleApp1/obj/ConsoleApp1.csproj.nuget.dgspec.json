@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\krzys\\Desktop\\C-_PROJECT\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\Users\\User\\Desktop\\C kratka projekt\\C-_PROJECT\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "c:\\Users\\krzys\\Desktop\\C-_PROJECT\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\User\\Desktop\\C kratka projekt\\C-_PROJECT\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\krzys\\Desktop\\C-_PROJECT\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\C kratka projekt\\C-_PROJECT\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "c:\\Users\\krzys\\Desktop\\C-_PROJECT\\ConsoleApp1\\ConsoleApp1.csproj",
-        "packagesPath": "C:\\Users\\krzys\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\krzys\\Desktop\\C-_PROJECT\\ConsoleApp1\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\C kratka projekt\\C-_PROJECT\\ConsoleApp1\\ConsoleApp1.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\C kratka projekt\\C-_PROJECT\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\krzys\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

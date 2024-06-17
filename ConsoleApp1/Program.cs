@@ -12,7 +12,7 @@ namespace FalloutUnderneath
             // Initialize the debug logger
             DebugLogger.SetDebugFile("DebugLog.txt");
 
-            DebugLogger.Log("LET THE DEBUGGING BEGIN!");
+            DebugLogger.Log("Program starting");
 
             // Start the game engine
             GameEngine gameEngine = GameEngine.GetInstance();

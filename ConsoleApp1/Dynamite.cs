@@ -51,12 +51,12 @@ namespace FalloutUnderneath
 
                 if(endX >= 80)
                 {
-                    endX = 1;
+                    endX = 79;
                 }
 
-                if(endY >= 40)
+                if(endY >= 20)
                 {
-                    endY = 1;
+                    endY = 20;
                 }
 
                 for(int x = startX; x < endX; x++)
