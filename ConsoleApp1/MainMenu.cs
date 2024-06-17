@@ -113,5 +113,17 @@ namespace FalloutUnderneath
 
             Console.ReadKey();
         }
+
+        public void DeathScreen()
+        {
+            DebugLogger.Log("Showing death screen");
+
+            Console.Clear();
+            Console.SetCursorPosition(10, 10);
+            Console.Write("You died.");
+
+            Console.ReadKey();
+            Environment.Exit(0); // * Exit game
+        }
     }
 }

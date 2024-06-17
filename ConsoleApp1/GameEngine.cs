@@ -1,3 +1,4 @@
+using System.Numerics;
 using System.Runtime.CompilerServices;
 using System.Security;
 using System.Text;
@@ -19,6 +20,8 @@ namespace FalloutUnderneath
         private List<SpecialItems> specialItemsList = new List<SpecialItems>();
         private List<Item> itemList = new List<Item>();
         private WallHackItem wallHackItem = new WallHackItem();
+
+        private List<Enemy> enemyList = new List<Enemy>();
 
         private bool _gameOver = false;
 
@@ -82,6 +85,28 @@ namespace FalloutUnderneath
             {
                 item.DrawOnViewport(currentViewport);
             }
+
+            List<int> enemyVector = new List<int>();
+            foreach(Enemy enemy in enemyList)
+            {
+                if(enemy.GetExplosionResistance() == true)
+                {
+                    enemy.DrawOnViewport(currentViewport);
+                }
+                else
+                {
+                    if(currentViewport.GetCharacterFromPosition(enemy.GetEnemyPosition().Item1, enemy.GetEnemyPosition().Item2) == ' ')
+                    {
+                        enemyVector.Add(enemyList.IndexOf(enemy));
+                    }
+                }
+            }
+
+            foreach(int elem in enemyVector)
+            {
+                enemyList.RemoveAt(elem);
+            }
+
 
             player.DrawOnViewport(currentViewport);
             player.WriteOnTextInterface(textInterface);
@@ -170,6 +195,55 @@ namespace FalloutUnderneath
                 DebugLogger.Log("Item removed from list");
                 itemList.RemoveAt(itemNum);
             }
+
+
+            // Checking interactions with enemies
+            if(enemyList != null)
+            {
+                foreach(Enemy enemy in enemyList)
+                {
+                    enemy.Move(currentViewport, player);
+                }
+            }
+
+            int enemyNum = -1;
+            if(enemyList != null)
+            {
+                foreach(Enemy enemy in enemyList)
+                {
+                    string name = enemy.GetEnemyName();
+                    DebugLogger.Log($"Checking enemy: {name}");
+
+                    if(playerPosition == enemy.GetEnemyPosition())
+                    {
+                        bool result = enemy.AttackPlayer(player, textInterface);
+
+                        if(result == false)
+                        {
+                            mainMenu.DeathScreen();
+                        }
+
+
+                        if(enemy != null && enemyList != null)
+                        {
+                            if(result == true)
+                            {
+                                enemyNum = enemyList.IndexOf(enemy);
+                            }
+                        }
+                        else
+                        {
+                            DebugLogger.LogError("Enemy could not be removed");
+                        }
+                    }
+                }
+            }
+
+            if(enemyNum != -1 && enemyList != null)
+            {
+                DebugLogger.Log("Enemy removed from list");
+                enemyList.RemoveAt(enemyNum);
+            }
         }    
 
         public void NextGameLevel()
@@ -206,6 +280,20 @@ namespace FalloutUnderneath
             foreach(Item item in itemList)
             {
                 item.DrawOnViewport(currentViewport);
+            }
+            
+            // * Spawning enemies on the map
+            enemyList.Clear();
+            int enemyCount = random.Next(10);
+            EnemyFactory enemyFactory = new EnemyFactory();
+            for(int i = 0; i < enemyCount; i++)
+            {
+                enemyList.Add(enemyFactory.CreateEnemy(level));
+            } 
+
+            foreach(Enemy enemy in enemyList)
+            {
+                enemy.DrawOnViewport(currentViewport);
             }
 
             // Change player position

@@ -129,6 +129,11 @@ namespace FalloutUnderneath
             playerHP -= damageToPlayer;
             return playerDmg;
         }
+        
+        public int GetPlayerHP()
+        {
+            return playerHP;
+        }
 
 
         private bool CheckPickaxeState()

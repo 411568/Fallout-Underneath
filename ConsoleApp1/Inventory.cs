@@ -138,11 +138,13 @@ namespace FalloutUnderneath
             ConsoleKeyInfo key = Console.ReadKey(true);
             DebugLogger.Log($"Pressed button: {key.KeyChar}");
 
+            bool result = false;
+
             switch(key.KeyChar)
             {
                 case '1':
                     DebugLogger.Log("Using item...");    
-                    item.UseItem();
+                    result = item.UseItem();
                     break;
                 case '2': 
                     if (itemList == null || item == null)
@@ -166,7 +168,14 @@ namespace FalloutUnderneath
             }
 
             textInteface.ClearText();
-            textInteface.WriteTextAtLine("Action completed successfully!", 0);
+            if(result == true)
+            {
+                textInteface.WriteTextAtLine("Action completed successfully!", 0);
+            }
+            else
+            {
+                textInteface.WriteTextAtLine("Cannot use this item!", 0);
+            }
         }
         
         public bool AddItemToInventory(Item item, ScreenTextInterface textInterface)

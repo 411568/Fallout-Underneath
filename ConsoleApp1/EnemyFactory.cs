@@ -10,17 +10,31 @@ namespace FalloutUnderneath
     {
         private Random random = new Random();
 
-        public Enemy CreateEnemy()
+        public Enemy CreateEnemy(int level)
         {
-            int itemType = random.Next(10); // Generates a random number between 0 and 99
+            int enemyType = random.Next(10); // Generates a random number between 0 and 99
 
-            if (itemType > 5)
+            if(level > 5) // TODO if level > 5 create stronger enemies
             {
-                return new Ghoul();
+                if (enemyType > 2)
+                {
+                    return new FeralGhoul();
+                }
+                else
+                {
+                    return new Ghoul();
+                }
             }
             else
             {
-                return new Ghoul();
+                if (enemyType > 8)
+                {
+                    return new FeralGhoul();
+                }
+                else
+                {
+                    return new Ghoul();
+                }
             }
         }
     }
