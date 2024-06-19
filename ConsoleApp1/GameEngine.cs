@@ -15,7 +15,7 @@ namespace FalloutUnderneath
         // Game viewport and text interface
         private Viewport currentViewport = Viewport.GetInstance();
         private ScreenTextInterface textInterface = ScreenTextInterface.GetInstance();
-        private MainMenu mainMenu = MainMenu.GetInstance();
+        private MainMenu mainMenu = MainMenu.GetInstance()
         private ExitDoor exitDoor = new ExitDoor();
         private List<SpecialItems> specialItemsList = new List<SpecialItems>();
         private List<Item> itemList = new List<Item>();
