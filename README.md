@@ -1,6 +1,6 @@
 <p align="center"><img src="https://socialify.git.ci/411568/Fallout-Underneath/image?custom_description=C%23+university+project+-+Fallout+Underneath+game.&description=1&language=1&name=1&pattern=Charlie+Brown&theme=Dark" alt="Fallout-Underneath" width="640" height="320" /></p>
 
-<h2>🧐 What is it?<h2>
+<h2>🧐 What is it?</h2>
 
 ![Game screen](/Images/screen1.png)
 
